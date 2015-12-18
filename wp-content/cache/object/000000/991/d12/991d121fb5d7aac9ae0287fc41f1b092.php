@@ -1,0 +1,1 @@
+›|uV<?php exit; ?>a:1:{s:7:"content";a:6:{s:4:"path";s:51:"/var/www/html/magexpress/wp-content/uploads/2015/12";s:3:"url";s:54:"http://localhost/magexpress/wp-content/uploads/2015/12";s:6:"subdir";s:8:"/2015/12";s:7:"basedir";s:43:"/var/www/html/magexpress/wp-content/uploads";s:7:"baseurl";s:46:"http://localhost/magexpress/wp-content/uploads";s:5:"error";b:0;}}
