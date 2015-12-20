@@ -28,10 +28,10 @@ define('FS_METHOD', 'direct');
 define('DB_NAME', 'magexpress');
 
 /** Utilisateur de la base de données MySQL. */
-define('DB_USER', 'magexpressuser');
+define('DB_USER', 'root');
 
 /** Mot de passe de la base de données MySQL. */
-define('DB_PASSWORD', '1q2w3e4r');
+define('DB_PASSWORD', 'root');
 
 /** Adresse de l'hébergement MySQL. */
 define('DB_HOST', 'localhost');
