@@ -1,0 +1,798 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PrivateContent\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-12-19 11:51+0100\n"
+"PO-Revision-Date: 2015-12-19 11:51+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;__;__e\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-SearchPath-0: private-content\n"
+
+#: classes/pc_form_framework.php:30
+msgid "First name"
+msgstr ""
+
+#: classes/pc_form_framework.php:30
+msgid "Name"
+msgstr "Vorname"
+
+#: classes/pc_form_framework.php:36
+msgid "User first name"
+msgstr ""
+
+#: classes/pc_form_framework.php:36 classes/pc_form_framework.php:45
+msgid "User name"
+msgstr ""
+
+#: classes/pc_form_framework.php:39
+msgid "Last name"
+msgstr ""
+
+#: classes/pc_form_framework.php:39
+msgid "Surname"
+msgstr "Nachname"
+
+#: classes/pc_form_framework.php:45
+msgid "User last name"
+msgstr ""
+
+#: classes/pc_form_framework.php:48 classes/pc_form_framework.php:486
+#: public_api.php:149
+msgid "Username"
+msgstr "Benutzername"
+
+#: classes/pc_form_framework.php:54
+msgid "Username used for the login"
+msgstr ""
+
+#: classes/pc_form_framework.php:58 classes/pc_form_framework.php:546
+#: public_api.php:154
+msgid "Password"
+msgstr "Passwort"
+
+#: classes/pc_form_framework.php:64
+msgid "Password used for the login"
+msgstr ""
+
+#: classes/pc_form_framework.php:68
+msgid "Category"
+msgstr "Kategorie"
+
+#: classes/pc_form_framework.php:73
+msgid "Categories"
+msgstr "Kategorien"
+
+#: classes/pc_form_framework.php:78
+msgid "E-Mail"
+msgstr "Email"
+
+#: classes/pc_form_framework.php:84
+msgid "User E-mail"
+msgstr ""
+
+#: classes/pc_form_framework.php:88
+msgid "Telephone"
+msgstr "Telefon"
+
+#: classes/pc_form_framework.php:94
+msgid "User Telephone"
+msgstr ""
+
+#: classes/pc_form_framework.php:97 user_registration.php:62
+msgid "Disclaimer"
+msgstr ""
+
+#: classes/pc_form_framework.php:104
+msgid "Registration disclaimer"
+msgstr ""
+
+#: classes/pc_form_framework.php:213 classes/pc_form_framework.php:427
+msgid "Repeat password"
+msgstr ""
+
+#: classes/pc_form_framework.php:475
+msgid "Password strength"
+msgstr ""
+
+#: classes/pc_form_framework.php:486
+msgid "Another user already has this username"
+msgstr "Dieser Benutzername ist bereits vergeben!"
+
+#: classes/pc_form_framework.php:497
+msgid "One or more chosen categories are wrong"
+msgstr ""
+
+#: classes/pc_form_framework.php:532
+msgid "characters and digits"
+msgstr ""
+
+#: classes/pc_form_framework.php:535
+msgid "an uppercase character"
+msgstr ""
+
+#: classes/pc_form_framework.php:538
+msgid "a symbol"
+msgstr ""
+
+#: classes/pc_form_framework.php:542
+msgid "must contain at least "
+msgstr ""
+
+#: classes/simple_form_validator.php:327
+msgid "minimum value is"
+msgstr "minimum Wert ist"
+
+#: classes/simple_form_validator.php:340
+msgid "maximum value is"
+msgstr "maximum Wert ist"
+
+#: classes/simple_form_validator.php:353
+msgid "must be at least of"
+msgstr "mindestens"
+
+#: classes/simple_form_validator.php:353 classes/simple_form_validator.php:379
+msgid "characters"
+msgstr "Zeichen"
+
+#: classes/simple_form_validator.php:366
+msgid "maximum"
+msgstr "maximum"
+
+#: classes/simple_form_validator.php:366
+msgid "characters allowed"
+msgstr "Nur Buchstaben erlaubt!"
+
+#: classes/simple_form_validator.php:379
+#, fuzzy
+msgid "must be long"
+msgstr "zu kurz"
+
+#: classes/simple_form_validator.php:423
+msgid "Select"
+msgstr "Auswählen"
+
+#: classes/simple_form_validator.php:423
+msgid "options"
+msgstr "Optionen"
+
+#: classes/simple_form_validator.php:435
+msgid "Maximum"
+msgstr "Maximum"
+
+#: classes/simple_form_validator.php:435
+msgid "options allowed"
+msgstr "Optionen erlaubt"
+
+#: classes/simple_form_validator.php:511
+msgid "are required"
+msgstr "sind erforderlich"
+
+#: classes/simple_form_validator.php:511
+msgid "is required"
+msgstr "ist erforderlich"
+
+#: classes/simple_form_validator.php:515
+msgid "are not valid integers"
+msgstr "Dies sind keine gültigen Werte!"
+
+#: classes/simple_form_validator.php:515
+msgid "is not a valid integer"
+msgstr "Dies ist kein gültiger Wert!"
+
+#: classes/simple_form_validator.php:519
+msgid "are not valid floating numbers"
+msgstr "Dies sind keine gültigen aufeinander folgenden Zahlen!"
+
+#: classes/simple_form_validator.php:519
+msgid "is not a valid floating number"
+msgstr "Dies ist keine gültige aufeinander folgende Zahl!"
+
+#: classes/simple_form_validator.php:523
+msgid "are not valid e-mail addresses"
+msgstr "Dies sind keine gültigen Email-Adressen!"
+
+#: classes/simple_form_validator.php:523
+msgid "is not a valid e-mail address"
+msgstr "Dies ist keine gültige Email-Adresse!"
+
+#: classes/simple_form_validator.php:527
+msgid "are not valid dates"
+msgstr "Dies sind keine gültige Datumsangaben!"
+
+#: classes/simple_form_validator.php:527
+msgid "is not a valid date"
+msgstr "Dies ist kein gültiges Datum!"
+
+#: classes/simple_form_validator.php:531
+msgid "are not valid times"
+msgstr "Dies sind keine gültigen Zeitangaben!"
+
+#: classes/simple_form_validator.php:531
+msgid "is not a valid time"
+msgstr "Dies ist keine gültige Zeitangabe!"
+
+#: classes/simple_form_validator.php:535
+msgid "are not valid urls"
+msgstr "Dies sind keine gültigen URL's!"
+
+#: classes/simple_form_validator.php:535
+msgid "is not a valid url"
+msgstr "Dies ist keine gültige URL!"
+
+#: classes/simple_form_validator.php:539
+msgid "are not valid hexadecimal colors"
+msgstr "Dies sind keine gültigen Hexadezimal-Code-Farben!"
+
+#: classes/simple_form_validator.php:539
+msgid "is not a valid hexadecimal color"
+msgstr "Dies ist keine gültige Hexadezimal-Code-Farbe!"
+
+#: classes/simple_form_validator.php:543
+msgid "are not valid IP addresses"
+msgstr "Dies sind keine gültigen IP-Adressen!"
+
+#: classes/simple_form_validator.php:543
+msgid "is not a valid IP address"
+msgstr "Dies ist keine gültige IP-Adresse!"
+
+#: classes/simple_form_validator.php:547
+msgid "are not valid ZIP codes"
+msgstr "Dies sind keine gültigen Postleitzahlen!"
+
+#: classes/simple_form_validator.php:547
+msgid "is not a valid ZIP code"
+msgstr "Dies ist keine gültige Postleitzahl!"
+
+#: classes/simple_form_validator.php:551
+msgid "are not valid telephone numbers"
+msgstr "Dies sind keine gültigen Telefonnummern!"
+
+#: classes/simple_form_validator.php:551
+msgid "is not a valid telephone number"
+msgstr "Dies ist keine gültige Telefonnummer!"
+
+#: classes/simple_form_validator.php:554
+msgid "invalid data inserted"
+msgstr "Ungültige Daten eingefügt!"
+
+#: classes/simple_form_validator.php:558
+msgid "values are not between the allowed"
+msgstr "Werte sind nicht im erlaubten Bereich!"
+
+#: classes/simple_form_validator.php:558
+msgid "value is not between the allowed"
+msgstr "Wert ist nicht im erlaubten Bereich!"
+
+#: classes/simple_form_validator.php:562
+msgid "values are between the forbidden"
+msgstr "Werte sind im verbotenen Bereich!"
+
+#: classes/simple_form_validator.php:562
+msgid "values is between the forbidden"
+msgstr "Wert ist im verbotenen Bereich!"
+
+#: classes/simple_form_validator.php:565
+msgid "the value doesn't match"
+msgstr "Dieser Wert passt nicht!"
+
+#: classes/simple_form_validator.php:568
+msgid "file size is wrong"
+msgstr "Die Dateigröße ist falsch!"
+
+#: classes/users_manag.php:398
+msgid "no access"
+msgstr ""
+
+#: classes/users_manag.php:401
+msgid "ago"
+msgstr ""
+
+#: classes/users_manag.php:470 classes/users_manag.php:639
+msgid "Disable private page"
+msgstr "Deaktiviere Private Page"
+
+#: classes/users_manag.php:516
+msgid "Error during user page creation"
+msgstr "Fehler bei der Benutzer-Seitenerstellung"
+
+#: classes/users_manag.php:553
+msgid "Error inserting user data into database"
+msgstr ""
+
+#: classes/users_manag.php:554 classes/users_manag.php:695
+#: classes/users_manag.php:696
+msgid "Error updating user data into database"
+msgstr ""
+
+#: classes/users_manag.php:757
+msgid "Wrong status value"
+msgstr ""
+
+#: classes/users_manag.php:766
+msgid "Another user has the same e-mail"
+msgstr "Ein anderer Benutzer hat die gleiche Email-Adresse!"
+
+#: classes/users_manag.php:776
+msgid "Another user has the same username or e-mail"
+msgstr ""
+
+#: classes/users_manag.php:786
+msgid "WP sync - another user has the same e-mail"
+msgstr ""
+
+#: comment_hack.php:10
+msgid "login"
+msgstr "anmelden"
+
+#: public_api.php:168
+msgid "remember me"
+msgstr "merken"
+
+#: public_api.php:179
+msgid "Login"
+msgstr "Anmelden"
+
+#: public_api.php:205
+msgid "Logout"
+msgstr "Abmelden"
+
+#: public_api.php:345
+msgid "You have to set registered users default category in settings"
+msgstr ""
+
+#: public_api.php:357 public_api.php:366
+msgid "No registration forms found"
+msgstr ""
+
+#: public_api.php:374
+msgid "Username and password fields are mandatory"
+msgstr ""
+
+#: public_api.php:427
+msgid "Submit"
+msgstr "Übermitteln"
+
+#: public_api.php:460
+msgid "You must be logged in to view this content"
+msgstr "Sie müssen angemeldet sein, um den Inhalt zu sehen"
+
+#: public_api.php:461
+msgid "Sorry, you don't have the right permissions to view this content"
+msgstr "Sorry, Sie haben keine ausreichenden Rechte, um diesen Inhalt zu sehen"
+
+#: public_api.php:463
+msgid "You must be logged in to post comments"
+msgstr ""
+
+#: public_api.php:464
+msgid "Sorry, you don't have the right permissions to post comments"
+msgstr ""
+
+#: public_api.php:466
+msgid "You don't have a reserved area"
+msgstr "Sie sind bereits angemeldet!"
+
+#: public_api.php:467
+msgid "Logged successfully, welcome!"
+msgstr ""
+
+#: public_api.php:468
+msgid "Sorry, your account has not been activated yet"
+msgstr "Sorry, Ihr Zugang wurde noch nicht aktiviert!"
+
+#: public_api.php:469
+msgid "Registration was successful. Welcome!"
+msgstr ""
+
+#: user_auth.php:70
+msgid "Incorrect username or password"
+msgstr ""
+
+#: user_auth.php:81
+msgid "Username or password incorrect"
+msgstr "Benutzername oder Passwort falsch!"
+
+#: user_registration.php:21
+msgid "Form not found"
+msgstr ""
+
+#: user_registration.php:56
+msgid "wasn't entered correctly"
+msgstr "Die Eingabe war nicht korrekt!"
+
+#: user_registration.php:62
+msgid "must be accepted to proceed with registration"
+msgstr "Der trainCfgCounter muss sich bei einer Basisregistrierung ändern."
+
+#~ msgid "Username not found or disabled"
+#~ msgstr "Benutzer gesperrt"
+
+#~ msgid "Your account doesn't have an e-mail"
+#~ msgstr "Es ist keine Email-Adresse für Ihren Zugang hinterlegt!"
+
+#~ msgid "Error sending the e-mail"
+#~ msgstr "Es ist ein Fehler beim Emailversandt aufgetreten!"
+
+#~ msgid "The password has been sent to your e-mail"
+#~ msgstr "Das Passwort wurde an Ihre Email-Adresse versandt!"
+
+#, fuzzy
+#~ msgid "forgot password?"
+#~ msgstr "Passwort vergessen?"
+
+#~ msgid "Recover"
+#~ msgstr "Passwort zusenden!"
+
+#~ msgid "Back to login form"
+#~ msgstr "Zurück zum Login-Formular"
+
+#~ msgid "E-mail Verification"
+#~ msgstr "Email Bestätigung widerrufen!"
+
+#~ msgid "Account succesfully verified via e-mail"
+#~ msgstr "Konto erfolgreich per Email verifiziert!"
+
+#~ msgid "cancel verification"
+#~ msgstr "Email Verification widerrufen!"
+
+#~ msgid "Verification Impossible - User has no e-mail"
+#~ msgstr "Überprüfung nicht möglich - Keine Email-Adresse im Benutzerkonto hinterlegt!"
+
+#~ msgid "Account not verified yet"
+#~ msgstr "Ihr Zugang wurde noch nicht überprüft!"
+
+#~ msgid "E-mail"
+#~ msgstr "E-Mail"
+
+#~ msgid "Sorry, your request is invalid or your account has been deleted"
+#~ msgstr "Sorry, Ihre Anfrage ist ungültig oder Ihr Zugang wurde gelöscht!"
+
+#~ msgid "Your account has been already activated!"
+#~ msgstr "Ihr Zugang wurde bereits aktiviert!"
+
+#~ msgid "Your account has been activated succesfully!"
+#~ msgstr "Ihr Zugang wurde erfolgreich aktiviert!"
+
+#~ msgid "Data saved succesfully"
+#~ msgstr "Import erfolgreich"
+
+#~ msgid "Form submitted successfully. You are not logged as an user so nothing has been saved"
+#~ msgstr "Formular erfolgreich übermittelt. Sie sind nicht als Benutzer angemeldet, es wurde nichts gespeichert."
+
+#~ msgid "Repeat"
+#~ msgstr "Wiederholen"
+
+#~ msgid "Welcome"
+#~ msgstr "Willkommen"
+
+#, fuzzy
+#~ msgid "You have to set the default category for registered users"
+#~ msgstr "Bitte wählen Sie eine voreingestellte Kategorie für registrierte Benutzer"
+
+#~ msgid "Logged succesfully, welcome!"
+#~ msgstr "Willkommen, Sie haben sich erfolgreich angemeldet!"
+
+#~ msgid "Invalid Category"
+#~ msgstr "Ungültige Kategorie"
+
+#~ msgid "Error during user registration, contact the website administrator"
+#~ msgstr "Es ist ein Fehler während der Benutzerregistrierung aufgetreten! Bitte kontaktieren Sie den Website-Administrator."
+
+#~ msgid "Registration was succesful. Welcome!"
+#~ msgstr "Ihre Registrierung war erfolgreich, herzlich Willkommen!"
+
+#, fuzzy
+#~ msgid "Sorry, your account has been disabled"
+#~ msgstr "Sorry, Ihr Zugang wurde noch nicht aktiviert!"
+
+#~ msgid "Error processing the action"
+#~ msgstr "Fehler bei der Verarbeitung"
+
+#~ msgid "No categories found .. "
+#~ msgstr "Keine Kategorien gefunden..."
+
+#~ msgid "All users"
+#~ msgstr "Alle Benutzer"
+
+#~ msgid "Subscriber"
+#~ msgstr "Teilnehmer"
+
+#~ msgid "Contributor"
+#~ msgstr "Mitwirkender"
+
+#~ msgid "Author"
+#~ msgstr "Autor"
+
+#~ msgid "Editor"
+#~ msgstr "Redakteur"
+
+#~ msgid "Administrator"
+#~ msgstr "Administrator"
+
+#~ msgid "minimum"
+#~ msgstr "minimum"
+
+#~ msgid "PrivateContent - Custom Fields Builder"
+#~ msgstr "PrivateContent - Custom Fields Builder"
+
+#~ msgid "Fields saved"
+#~ msgstr "Reihenfolge Felder"
+
+#~ msgid "PrivateContent - Custom Form Builder"
+#~ msgstr "PrivateContent - Custom Fields Builder"
+
+#~ msgid "Form submitted successfully. In this demo no data could be saved"
+#~ msgstr "Formular erfolgreich übermittelt. In diesem Demo werden keine Daten gespeichert!"
+
+#~ msgid "verify manually"
+#~ msgstr "Manuell überprüfen"
+
+#~ msgid "%s (Invalid)"
+#~ msgstr "%s (Ungültig)"
+
+#~ msgid "%s (Pending)"
+#~ msgstr "%s (Bestätigung ausstehend)"
+
+#~ msgid "Original: %s"
+#~ msgstr "Original: %s"
+
+#~ msgid "All"
+#~ msgstr "Alle"
+
+#~ msgid "PrivateContent Settings"
+#~ msgstr "PrivateContent Einstellungen"
+
+#~ msgid "User's Private Page"
+#~ msgstr "User's Private Page"
+
+#~ msgid "Target page content"
+#~ msgstr "Inhalt Zielseite"
+
+#~ msgid "Private page default content"
+#~ msgstr "Private Page voreingestellte Inhalt"
+
+#~ msgid "Enable preset content"
+#~ msgstr "Aktiviere voreingestellten Inhalt"
+
+#~ msgid "Preset content position"
+#~ msgstr "Position voreingestellter Inhalt"
+
+#~ msgid "Preset content"
+#~ msgstr "Voreingestellter Inhalt"
+
+#~ msgid "Redirect Page"
+#~ msgstr "Weiterleitungsseite"
+
+#~ msgid "Redirect Page - Custom URL"
+#~ msgstr "Weiterleitungsseite - Benutzerdefinierte URL"
+
+#~ msgid "Logged Users Redirect"
+#~ msgstr "Weiterleitung angemeldete Benutzer"
+
+#~ msgid "Logged Users Redirect - Custom URL"
+#~ msgstr "Weiterleitung angemeldete Benutzer -Benutzerdefinierte URL"
+
+#~ msgid "Users Redirect after logout"
+#~ msgstr "Weiterleitung Benutzer nach Abmeldung"
+
+#~ msgid "Users Redirect after logout - Custom URL"
+#~ msgstr "Weiterleitung Benutzer nach Abmeldung - Benutzer URL"
+
+#~ msgid "Extend for CPT"
+#~ msgstr "Erweiterung für CPT"
+
+#~ msgid "Extend for CT"
+#~ msgstr "Erweiterung für CT"
+
+#~ msgid "Inline login"
+#~ msgstr "Inline Anmeldung"
+
+#~ msgid "Minimum role"
+#~ msgstr "Minimum Rolle"
+
+#~ msgid "Hide passwords"
+#~ msgstr "Verstecke Passwörter"
+
+#~ msgid "Test Mode"
+#~ msgstr "Testmodus"
+
+#~ msgid "Disable Front CSS"
+#~ msgstr "Deaktiviere Front CSS"
+
+#~ msgid "Registered Users Category"
+#~ msgstr "Kategorie für registrierte Benutzer"
+
+#~ msgid "Disable reCAPTCHA"
+#~ msgstr "Deaktiviere reCAPTCHA"
+
+#~ msgid "Pending Status registered"
+#~ msgstr "Bestätigungsstatus registriert"
+
+#~ msgid "Private page for registered"
+#~ msgstr "Private Page für registrierte Benutzer"
+
+#~ msgid "Registered Users Redirect"
+#~ msgstr "Weiterleitung für registrierte Benutzer"
+
+#~ msgid "Included Fields"
+#~ msgstr "Eingefügte Felder"
+
+#~ msgid "Required Fields"
+#~ msgstr "Pflichtfeld"
+
+#~ msgid "Message for not logged users"
+#~ msgstr "Nachricht für nicht angemeldete Benutzer"
+
+#~ msgid "Message if haven't reserved area"
+#~ msgstr "Nachricht bei fehlender persönlicher Seite"
+
+#~ msgid "Message for pending users"
+#~ msgstr "Nachricht für noch nicht bestätigte Benutzer"
+
+#~ msgid "Message for not right permissions"
+#~ msgstr "Nachricht für falsche Zugriffsrechte"
+
+#~ msgid "Message if registered"
+#~ msgstr "Nachricht wenn registriert"
+
+#~ msgid "Options saved"
+#~ msgstr "Optionen gespeichert"
+
+#~ msgid "PrivateContent User"
+#~ msgstr "PrivateContent Benutzer"
+
+#~ msgid "User saved "
+#~ msgstr "Benutzer gespeichert"
+
+#~ msgid "Create a user category"
+#~ msgstr "Benutzerkategorie erstellen"
+
+#~ msgid "Update User"
+#~ msgstr "Update Benutzer"
+
+#~ msgid "Add User"
+#~ msgstr "Benutzer hinzufügen"
+
+#~ msgid "Users type"
+#~ msgstr "Benutzer Art"
+
+#~ msgid "Export type"
+#~ msgstr "Export Art"
+
+#~ msgid "Import & Export Users"
+#~ msgstr "Import & Export Benutzerliste"
+
+#~ msgid "CSV file"
+#~ msgstr "CSV Datei"
+
+#~ msgid "Field Delimiter"
+#~ msgstr "Feld-Trennzeichen"
+
+#~ msgid "Enable Pvt Page"
+#~ msgstr "Erlaube Pvt Page"
+
+#~ msgid "Ignore first row"
+#~ msgstr "Ignoriere erste Reihe"
+
+#~ msgid "Stop if errors found"
+#~ msgstr "Stop wenn Fehler gefunden"
+
+#~ msgid "is missing"
+#~ msgstr "fehlt"
+
+#~ msgid "Row "
+#~ msgstr "Reihe"
+
+#~ msgid "Error during user pages creation"
+#~ msgstr "Fehler bei der Benutzer-Seitenerstellung"
+
+#~ msgid "User deleted"
+#~ msgstr "Benutzer gelöscht"
+
+#~ msgid "User enabled"
+#~ msgstr "Benutzer aktiviert"
+
+#~ msgid "PrivateContent Users"
+#~ msgstr "PrivateContent Benutzer"
+
+#~ msgid "Add New"
+#~ msgstr "Hinzufügen"
+
+#~ msgid "Enable"
+#~ msgstr "Aktiviert"
+
+#~ msgid "Users"
+#~ msgstr "Benutzernamen"
+
+#~ msgid "Disable"
+#~ msgstr "Gesperrt"
+
+#~ msgid "Delete"
+#~ msgstr "Gelöscht"
+
+#~ msgid "%SITE-TITLE% - Welcome!"
+#~ msgstr "%SITE-TITLE% - Willkommen!"
+
+#~ msgid ""
+#~ "Hello %USERNAME%,\n"
+#~ "thanks for registering on %SITE-TITLE%. \n"
+#~ "\n"
+#~ "To activate your account, click the following link:\n"
+#~ "%VER-URL%\n"
+#~ "\n"
+#~ "Best Regards,\n"
+#~ "%SITE-TITLE% Staff"
+#~ msgstr ""
+#~ "Hallo %USERNAME%,\n"
+#~ "vielen Danke für Ihre Registrierung %SITE-TITLE%. \n"
+#~ "\n"
+#~ "Um Ihren Zugang zu aktivieren, klicken Sie bitte auf den folgenden Link:\n"
+#~ "%VER-URL%\n"
+#~ "\n"
+#~ "Mit freundlichen Grüßen,\n"
+#~ "Ihr %SITE-TITLE% Team"
+
+#~ msgid "%SITE-TITLE% - New registered user"
+#~ msgstr "%SITE-TITLE% - Neuer registrierter Benutzer"
+
+#~ msgid ""
+#~ "Hello,\n"
+#~ "A new user has registered.\n"
+#~ "\n"
+#~ "Fullname: %NAME% %SURNAME%\n"
+#~ "Username: %USERNAME%\n"
+#~ "E-mail: %MAIL%\n"
+#~ "Telephone: %TEL%"
+#~ msgstr ""
+#~ "Hallo,\n"
+#~ "Ein neuer Benutzer hat sich registriert.\n"
+#~ "\n"
+#~ "Vor- und Zuname: %NAME% %SURNAME%\n"
+#~ "Benutzername: %USERNAME%\n"
+#~ "Email: %MAIL%\n"
+#~ "Telefon: %TEL%"
+
+#~ msgid "%SITE-TITLE% - Account activated!"
+#~ msgstr "%SITE-TITLE% - Ihr Zugang wurde aktiviert!"
+
+#~ msgid ""
+#~ "Hello %USERNAME%,\n"
+#~ "your account has been activated, now you can login into our website!\n"
+#~ "\n"
+#~ "Best Regards,\n"
+#~ "%SITE-TITLE% Staff"
+#~ msgstr ""
+#~ "Hallo %USERNAME%,\n"
+#~ "Ihr Zugang wurde aktiviert, Sie können sich jetzt auf der Webseite\n"
+#~ "anmelden!\n"
+#~ "\n"
+#~ "\"Mit freundlichen Grüßen,\n"
+#~ "Ihr %SITE-TITLE% Team"
+
+#~ msgid "%SITE-TITLE% - Password recovery"
+#~ msgstr "%SITE-TITLE% - Passwort-Erinnerung"
+
+#~ msgid ""
+#~ "Hello %USERNAME%,\n"
+#~ "a password recovery has been requested for your account.\n"
+#~ "\n"
+#~ "This is your password: %PSW%\n"
+#~ "\n"
+#~ "Best Regards,\n"
+#~ "%SITE-TITLE% Staff"
+#~ msgstr ""
+#~ "Hallo %USERNAME%,\n"
+#~ "Sie haben eine Passwort-Erinnerung für Ihren Zugang angefordert.\n"
+#~ "\n"
+#~ "Ihr Passwort lautet: %PSW%\n"
+#~ "\n"
+#~ "Mit freundlichen Grüßen,\n"
+#~ "Ihr %SITE-TITLE% Team"

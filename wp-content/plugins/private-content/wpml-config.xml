@@ -1,0 +1,30 @@
+<wpml-config>
+    <custom-types>
+		<custom-type translate="0">pg_user_page</custom-type>
+	</custom-types>  
+	
+	<taxonomies>
+		<taxonomy translate="0">pc_reg_form</taxonomy>
+		<taxonomy translate="0">pg_user_categories</taxonomy>
+	</taxonomies>
+	
+	<admin-texts>
+		<key name="pc_pvtpage_default_content"/>
+		<key name="pc_pvtpage_preset_txt"/>
+	
+		<key name="pc_redirect_page_custom"/>
+		<key name="pc_logged_user_redirect_custom"/>
+		<key name="ppc_logout_user_redirect_custom"/>
+		<key name="pc_reg_cat_label"/>
+		<key name="pc_disclaimer_txt"/>
+		
+		<key name="pc_default_nl_mex"/>
+		<key name="pc_default_nhpa_mex"/>
+		<key name="pg_login_ok_mex"/>
+		<key name="pc_default_pu_mex"/>
+		<key name="pc_default_uca_mex"/>
+		<key name="pc_default_sr_mex"/>
+	</admin-texts>
+</wpml-config>
+
+

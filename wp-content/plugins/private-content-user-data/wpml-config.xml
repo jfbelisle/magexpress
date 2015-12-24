@@ -1,0 +1,8 @@
+<wpml-config>
+	<taxonomies>
+		<taxonomy translate="0">pcud_fields</taxonomy>
+		<taxonomy translate="0">pcud_forms</taxonomy>
+	</taxonomies>
+</wpml-config>
+
+

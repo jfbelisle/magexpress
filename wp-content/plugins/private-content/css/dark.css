@@ -1,0 +1,152 @@
+/*BASIC STYLES */
+@import url("frontend.css");
+
+
+/***********************************
+    GLOBAL ELEMENTS
+ ***********************************/
+
+/* containers style */
+.pc_registration_form,
+.pc_login_form,
+.pc_custom_form {
+	background-color: #5a5a5a;
+    border: 1px solid #3f3f3f;
+    border-radius: 3px;
+    box-shadow: 0 0 4px rgba(200, 200, 200, 0.2) inset;	
+	color: #fdfdfd;
+}
+
+
+/* fields style */
+.pc_rf_field input, .pc_rf_field select, .pc_rf_field textarea,
+.pc_multiselect .ms-choice, .pc_multiselect .ms-drop,
+.pc_login_row input, .pcma_psw_username,
+.pc_rf_recaptcha #recaptcha_response_field {
+	background: #4a4a4a;
+    border: 1px solid #999;
+    box-shadow: 0 1px 1px rgba(30, 30, 30, 0.1) inset;
+    color: #ddd;
+	padding: 3px !important;
+	border-radius: 1px !important;
+}
+.pc_rf_field input:hover, .pc_rf_field select:hover, .pc_rf_field textarea:hover,
+.pc_rf_field input:active, .pc_rf_field select:active, .pc_rf_field textarea:active,
+.pc_rf_field input:focus, .pc_rf_field select:focus, .pc_rf_field textarea:focus,
+.pc_multiselect .ms-choice:hover, .pc_multiselect .ms-choice:active, .pc_multiselect .ms-choice:focus,
+.pc_login_row input:hover, .pcma_psw_username:hover,
+.pc_login_row input:active, .pcma_psw_username:active,
+.pc_login_row input:focus, .pcma_psw_username:focus,
+.pc_rf_recaptcha #recaptcha_response_field:focus {
+	background: #3f3f3f !important;
+    border: 1px solid #bbb !important;
+    color: #fdfdfd !important;	
+	box-shadow: none;	
+}
+.pc_login_form label, .pc_form_flist, .pc_form_flist label {
+	color: #fdfdfd;
+}
+
+/* multiselect fix */
+.pc_multiselect .ms-drop {
+	padding: 0 !important;	
+}
+
+
+/* submit buttons */
+.pc_login_form input[type="button"], 
+.pc_registration_form input[type="button"],
+.pc_custom_form input[type="button"],
+.pc_logout_btn {
+	background: #494949 !important; /* Old browsers */
+	background: -moz-linear-gradient(top, #494949 0%, #454545 100%) !important; /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#494949), color-stop(100%,#454545)) !important; /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #494949 0%,#454545 100%) !important; /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #494949 0%,#454545 100%) !important; /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #494949 0%,#454545 100%) !important; /* IE10+ */
+	background: linear-gradient(to bottom, #494949 0%,#454545 100%) !important; /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#494949', endColorstr='#454545',GradientType=0 ) !important; /* IE6-9 */
+	
+	border: 1px solid #3d3d3d !important;
+	border-radius: 2px;
+	color: #eee !important;
+	box-shadow: 0 0 2px rgba(245, 245, 245, 0.1);
+}
+.pc_login_form input[type="button"]:hover, .pc_login_form input[type="button"]:active, .pc_login_form input[type="button"]:focus,  
+.pc_registration_form input[type="button"]:hover, .pc_registration_form input[type="button"]:active, .pc_registration_form input[type="button"]:focus,
+.pc_custom_form input[type="button"]:hover, .pc_custom_form input[type="button"]:active, .pc_custom_form input[type="button"]:focus,
+.pc_logout_btn:hover, .pc_logout_btn:active, .pc_logout_btn:focus,
+.pc_loading_btn:hover, .pc_loading_btn:active, .pc_loading_btn:focus {
+	background: #454545 !important; /* Old browsers */
+	background: -moz-linear-gradient(top, #454545 0%, #494949 100%) !important; /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#454545), color-stop(100%,#494949)) !important; /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #454545 0%,#494949 100%) !important; /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #454545 0%,#494949 100%) !important; /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #454545 0%,#494949 100%) !important; /* IE10+ */
+	background: linear-gradient(to bottom, #454545 0%,#494949 100%) !important; /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#454545', endColorstr='#494949',GradientType=0 ) !important; /* IE6-9 */
+	
+	border-color: #333 !important;
+	color: #fdfdfd !important;
+}
+
+/* disclaimer */
+.pc_rf_disclaimer_sep {
+	border-bottom: 1px solid #777;	
+}
+  
+ 
+/* recaptcha */
+.pc_rf_recaptcha #recaptcha_table {
+	border-color: #777 !important;
+}	
+.pc_rf_recaptcha #recaptcha_response_field {
+	border-color: #777 !important;	
+	color: #fdfdfd !important;
+}
+.pc_rf_recaptcha #recaptcha_reload_btn {
+	background: url('../img/recaptcha_icons/refresh_d.png') no-repeat center center transparent !important;
+}
+.pc_rf_recaptcha #recaptcha_switch_audio_btn {
+	background: url('../img/recaptcha_icons/sound_d.png') no-repeat center center transparent !important;
+}
+.pc_rf_recaptcha #recaptcha_switch_img_btn {
+	background: url('../img/recaptcha_icons/text_d.png') no-repeat center center transparent !important;
+}
+.pc_rf_recaptcha #recaptcha_whatsthis_btn {
+	background: url('../img/recaptcha_icons/question_d.png') no-repeat center center transparent !important;
+}
+  
+  
+/*********************************
+   STANDARD LOGIN FORM ELEMENTS
+ ********************************/
+  
+/* container message */
+.pc_login_block p {
+    border-radius: 2px;
+}
+ 
+
+/*****************************
+   SUCCESS AND ERROR MESSAGES
+ *****************************/
+  
+/* standard form messages / widget form messages  */
+.pc_error_mess,
+.pc_success_mess,
+.widget .pc_error_mess,
+.widget .pc_success_mess {
+    border-radius: 2px;
+}
+
+
+/* login form smalls */
+.pc_login_smalls small {
+	color: #bbb;	
+}
+
+/* show and hide recovery form trigger */
+.pc_rm_login .pcma_psw_recovery_trigger {
+	border-left-color: #ddd;	
+}

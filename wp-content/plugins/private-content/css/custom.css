@@ -1,0 +1,154 @@
+/*BASIC STYLES */
+@import url("//localhost/magexpress/wp-content/plugins/private-content/css/frontend.css");
+
+
+/***********************************
+    GLOBAL ELEMENTS
+ ***********************************/
+  
+/* containers style */
+.pc_registration_form,
+.pc_login_form,
+.pc_custom_form {
+	background-color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 0px;
+	color: #717171;	
+}
+
+
+/* fields style */
+.pc_rf_field input, .pc_rf_field select, .pc_rf_field textarea,
+.pc_multiselect .ms-choice, .pc_multiselect .ms-drop,
+.pc_login_row input, .pcma_psw_username,
+.pc_rf_recaptcha #recaptcha_response_field {
+	background: #FAFAFA;
+    border: 1px solid #EEEEEE;
+    color: #7f7f7f;	
+	padding: 14px !important;
+	border-radius: 0px !important;
+}
+.pc_rf_field input:hover, .pc_rf_field select:hover, .pc_rf_field textarea:hover,
+.pc_rf_field input:active, .pc_rf_field select:active, .pc_rf_field textarea:active,
+.pc_rf_field input:focus, .pc_rf_field select:focus, .pc_rf_field textarea:focus,
+.pc_multiselect .ms-choice:hover, .pc_multiselect .ms-choice:active, .pc_multiselect .ms-choice:focus,
+.pc_login_row input:hover, .pcma_psw_username:hover,
+.pc_login_row input:active, .pcma_psw_username:active,
+.pc_login_row input:focus, .pcma_psw_username:focus,
+.pc_rf_recaptcha #recaptcha_response_field:focus {
+	background: #FAFAFA;
+    border: 1px solid #dadada;
+    color: #7f7f7f;	
+	box-shadow: none;	
+}
+.pc_login_form label, .pc_form_flist, .pc_form_flist label {
+	color: #717171;
+}
+
+/* multiselect fix */
+.pc_multiselect .ms-drop {
+	padding: 0 !important;	
+}
+
+
+/* typography */
+.pc_login_row label {
+	font-size: 14px;
+}
+.pc_form_flist > li > label,
+.pc_disclaimer_txt {
+	font-size: 14px;
+}
+
+
+/* submit buttons */
+.pc_login_form input[type="button"], 
+.pc_registration_form input[type="button"],
+.pc_custom_form input[type="button"],
+.pc_logout_btn {
+	background: #FAFAFA !important;
+	border: 1px solid #EEEEEE !important;
+	border-radius: 0px !important;
+	box-shadow: none;
+	color: #7f7f7f !important;	
+}
+.pc_login_form input[type="button"]:hover, .pc_login_form input[type="button"]:active, .pc_login_form input[type="button"]:focus,  
+.pc_registration_form input[type="button"]:hover, .pc_registration_form input[type="button"]:active, .pc_registration_form input[type="button"]:focus,
+.pc_custom_form input[type="button"]:hover, .pc_custom_form input[type="button"]:active, .pc_custom_form input[type="button"]:focus,
+.pc_logout_btn:hover, .pc_logout_btn:active, .pc_logout_btn:focus,
+.pc_loading_btn:hover, .pc_loading_btn:active, .pc_loading_btn:focus {
+	background: #d71818 !important;
+	border-color: #d71818 !important;
+	color: #ffffff !important;
+}
+
+.pc_rf_disclaimer_sep {
+	border-bottom: 1px solid #ffffff;	
+}
+
+
+/* recaptcha */
+.pc_rf_recaptcha #recaptcha_table {
+	border-color: #EEEEEE !important;
+}	
+.pc_rf_recaptcha #recaptcha_response_field {
+	background: #FAFAFA !important;
+	border-color: #EEEEEE !important;	
+	color: #7f7f7f !important;
+}
+.pc_rf_recaptcha #recaptcha_response_field:focus {
+	border-color: #dadada !important;	
+	color: #7f7f7f !important;
+    background: #FAFAFA !important;
+}
+.pc_rf_recaptcha #recaptcha_reload_btn {
+	background: url('//localhost/magexpress/wp-content/plugins/private-content/img/recaptcha_icons/refresh_l.png') no-repeat center center transparent !important;
+}
+.pc_rf_recaptcha #recaptcha_switch_audio_btn {
+	background: url('//localhost/magexpress/wp-content/plugins/private-content/img/recaptcha_icons/sound_l.png') no-repeat center center transparent !important;
+}
+.pc_rf_recaptcha #recaptcha_switch_img_btn {
+	background: url('//localhost/magexpress/wp-content/plugins/private-content/img/recaptcha_icons/text_l.png') no-repeat center center transparent !important;
+}
+.pc_rf_recaptcha #recaptcha_whatsthis_btn {
+	background: url('//localhost/magexpress/wp-content/plugins/private-content/img/recaptcha_icons/question_l.png') no-repeat center center transparent !important;
+}
+
+
+  
+/*********************************
+   STANDARD LOGIN FORM ELEMENTS
+ ********************************/
+  
+/* container message */
+.pc_login_block p {
+    border-radius: 0px;
+}
+ 
+
+/*****************************
+   SUCCESS AND ERROR MESSAGES
+ *****************************/
+ 
+/* standard form messages / widget form messages  */
+.pc_error_mess,
+.pc_success_mess,
+.widget .pc_error_mess,
+.widget .pc_success_mess {
+    border-radius: 0px;
+}
+
+
+/* login form smalls */
+.pc_login_smalls small {
+	color: #717171;	
+    opacity: 0.8;
+    filter: alpha(opacity=70);
+}
+
+/* show and hide recovery form trigger */
+.pc_rm_login .pcma_psw_recovery_trigger {
+	border-left-color: #ffffff;	
+}
+
+

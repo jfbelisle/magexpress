@@ -1,0 +1,677 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PrivateContent User Data\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-12-10 17:54+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: LCweb\n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../ajax.php:28
+msgid "Missing label"
+msgstr ""
+
+#: ../ajax.php:203
+msgid "Add Form Fields"
+msgstr ""
+
+#: ../ajax.php:209 ../ajax.php:211 ../tinymce_integration.php:27
+#: ../tinymce_integration.php:79
+msgid "Select field"
+msgstr ""
+
+#: ../ajax.php:219
+msgid "TEXT BLOCK"
+msgstr ""
+
+#: ../ajax.php:224 ../cust_forms_builder.php:70
+msgid "Add"
+msgstr ""
+
+#: ../ajax.php:247
+msgid "Form Structure"
+msgstr ""
+
+#: ../ajax.php:253
+msgid "Field name"
+msgstr ""
+
+#: ../ajax.php:254
+msgid "Required?"
+msgstr ""
+
+#: ../ajax.php:273 ../cust_forms_builder.php:131
+msgid "Supports HTML and shortcodes"
+msgstr ""
+
+#: ../ajax.php:320
+msgid "Form Redirect"
+msgstr ""
+
+#: ../ajax.php:324
+msgid "Redirect target"
+msgstr ""
+
+#: ../ajax.php:326
+msgid "Select a page"
+msgstr ""
+
+#: ../ajax.php:327
+msgid "No redirect"
+msgstr ""
+
+#: ../ajax.php:328
+msgid "Custom redirect"
+msgstr ""
+
+#: ../ajax.php:337
+msgid "Redirect target after successful form submission"
+msgstr ""
+
+#: ../ajax.php:341
+msgid "insert a valid URL"
+msgstr ""
+
+#: ../cust_fields_builder.php:104 ../pc_user_data.php:61
+msgid "Custom Fields Builder"
+msgstr ""
+
+#: ../cust_fields_builder.php:105 ../cust_fields_builder.php:197
+msgid "Add new field"
+msgstr ""
+
+#: ../cust_fields_builder.php:117
+msgid "Field ID"
+msgstr ""
+
+#: ../cust_fields_builder.php:118
+msgid "Field Index"
+msgstr ""
+
+#: ../cust_fields_builder.php:119
+msgid "Field Label"
+msgstr ""
+
+#: ../cust_fields_builder.php:120
+msgid "Field Type"
+msgstr ""
+
+#: ../cust_fields_builder.php:121
+msgid "Field Subtype"
+msgstr ""
+
+#: ../cust_fields_builder.php:122
+msgid "Field max-length"
+msgstr ""
+
+#: ../cust_fields_builder.php:124
+msgid "Allowed number from"
+msgstr ""
+
+#: ../cust_fields_builder.php:125
+msgid "Allowed number to"
+msgstr ""
+
+#: ../cust_fields_builder.php:180
+msgid "Fields saved"
+msgstr ""
+
+#: ../cust_fields_builder.php:198
+msgid "field index must to be unique and cannot be changed"
+msgstr ""
+
+#: ../cust_fields_builder.php:204
+msgid "Field label"
+msgstr ""
+
+#: ../cust_fields_builder.php:209
+msgid "Field index"
+msgstr ""
+
+#: ../cust_fields_builder.php:210
+msgid "leave empty to auto-generate from label"
+msgstr ""
+
+#: ../cust_fields_builder.php:213
+msgid "generate index"
+msgstr ""
+
+#: ../cust_fields_builder.php:218
+msgid "Add Field"
+msgstr ""
+
+#: ../cust_fields_builder.php:223
+msgid "Custom Fields"
+msgstr ""
+
+#: ../cust_fields_builder.php:247
+msgid "field label"
+msgstr ""
+
+#: ../cust_fields_builder.php:249
+msgid "field index"
+msgstr ""
+
+#: ../cust_fields_builder.php:254
+msgid "collapse"
+msgstr ""
+
+#: ../cust_fields_builder.php:255
+msgid "expand"
+msgstr ""
+
+#: ../cust_fields_builder.php:268
+msgid "Field type"
+msgstr ""
+
+#: ../cust_fields_builder.php:270
+msgid "Select type"
+msgstr ""
+
+#: ../cust_fields_builder.php:282
+msgid "Subtype"
+msgstr ""
+
+#: ../cust_fields_builder.php:284
+msgid "Select subtype"
+msgstr ""
+
+#: ../cust_fields_builder.php:296
+msgid "Max length"
+msgstr ""
+
+#: ../cust_fields_builder.php:305
+msgid "Custom regexp validation"
+msgstr ""
+
+#: ../cust_fields_builder.php:311
+msgid "Allowed values"
+msgstr ""
+
+#: ../cust_fields_builder.php:313
+msgid "From"
+msgstr ""
+
+#: ../cust_fields_builder.php:315
+msgid "to"
+msgstr ""
+
+#: ../cust_fields_builder.php:321
+msgid "Options (comma split)"
+msgstr ""
+
+#: ../cust_fields_builder.php:327
+msgid "Multi-choice?"
+msgstr ""
+
+#: ../cust_fields_builder.php:328 ../cust_fields_builder.php:349
+#: ../tinymce_integration.php:60
+msgid "Select an option"
+msgstr ""
+
+#: ../cust_fields_builder.php:329 ../cust_fields_builder.php:350
+msgid "no"
+msgstr ""
+
+#: ../cust_fields_builder.php:330 ../cust_fields_builder.php:351
+msgid "yes"
+msgstr ""
+
+#: ../cust_fields_builder.php:336
+msgid "Field Placeholder"
+msgstr ""
+
+#: ../cust_fields_builder.php:342
+msgid "Checkbox text"
+msgstr ""
+
+#: ../cust_fields_builder.php:343
+msgid "Text used in forms (supports HTML)"
+msgstr ""
+
+#: ../cust_fields_builder.php:348
+msgid "Use as disclaimer?"
+msgstr ""
+
+#: ../cust_fields_builder.php:357
+msgid "Internal note"
+msgstr ""
+
+#: ../cust_fields_builder.php:362
+msgid "Show in users list?"
+msgstr ""
+
+#: ../cust_fields_builder.php:375
+#, fuzzy
+msgid "Update Fields"
+msgstr "Aggiungi un campo"
+
+#: ../cust_fields_builder.php:408
+msgid "Insert something in label field"
+msgstr ""
+
+#: ../cust_fields_builder.php:433
+msgid ""
+"Removing the field ANY related user data will be lost DEFINITIVELY, continue?"
+msgstr ""
+
+#: ../cust_fields_builder.php:479
+msgid "Field added successfully!"
+msgstr ""
+
+#: ../cust_forms_builder.php:54 ../pc_user_data.php:62
+msgid "Custom Forms Builder"
+msgstr ""
+
+#: ../cust_forms_builder.php:65
+msgid "Add Form"
+msgstr ""
+
+#: ../cust_forms_builder.php:68
+msgid "Form Name"
+msgstr ""
+
+#: ../cust_forms_builder.php:76
+msgid "Form List"
+msgstr ""
+
+#: ../cust_forms_builder.php:81
+msgid "Save form"
+msgstr ""
+
+#: ../cust_forms_builder.php:92 ../cust_forms_builder.php:321
+msgid "Select a form"
+msgstr "Seleziona un form"
+
+#: ../cust_forms_builder.php:120
+msgid "Field already in the form"
+msgstr ""
+
+#: ../cust_forms_builder.php:147
+msgid "remove field"
+msgstr ""
+
+#: ../cust_forms_builder.php:148
+msgid "sort field"
+msgstr ""
+
+#: ../cust_forms_builder.php:197
+msgid "Form saved"
+msgstr ""
+
+#: ../cust_forms_builder.php:211
+msgid "Do you want to remove this field?"
+msgstr ""
+
+#: ../cust_forms_builder.php:258
+msgid "Form added"
+msgstr ""
+
+#: ../cust_forms_builder.php:298 ../cust_forms_builder.php:332
+msgid "No existing forms"
+msgstr ""
+
+#: ../cust_forms_builder.php:309
+msgid "Delete definitively the form?"
+msgstr ""
+
+#: ../cust_forms_handle - PER LIVE DEMO.php:21 ../cust_forms_handle.php:19
+msgid "You must be logged to use this form"
+msgstr ""
+
+#: ../cust_forms_handle - PER LIVE DEMO.php:33
+msgid "Unknown form"
+msgstr ""
+
+#: ../cust_forms_handle - PER LIVE DEMO.php:135
+msgid ""
+"Form submitted successfully. You are not logged as an user so nothing has "
+"been saved"
+msgstr ""
+
+#: ../cust_forms_handle.php:31
+msgid "Form not found"
+msgstr ""
+
+#: ../cust_forms_handle.php:62
+msgid ""
+"Form submitted successfully.<br/> Not logged as PrivateContent user, nothing "
+"has been saved"
+msgstr ""
+
+#: ../cust_forms_handle.php:95
+msgid "Data saved succesfully"
+msgstr "Dati salvati con successo"
+
+#: ../functions.php:57
+msgid "Text"
+msgstr ""
+
+#: ../functions.php:58
+msgid "Dropdown"
+msgstr ""
+
+#: ../functions.php:59
+msgid "Textarea"
+msgstr ""
+
+#: ../functions.php:60
+msgid "Checkbox"
+msgstr ""
+
+#: ../functions.php:61
+msgid "Single-option checkbox"
+msgstr ""
+
+#: ../functions.php:70
+msgid "Anything"
+msgstr ""
+
+#: ../functions.php:71
+msgid "E-mail"
+msgstr ""
+
+#: ../functions.php:72
+msgid "Integer Number"
+msgstr ""
+
+#: ../functions.php:73
+msgid "Floating Number"
+msgstr ""
+
+#: ../functions.php:74
+msgid "European Date"
+msgstr ""
+
+#: ../functions.php:75
+msgid "US Date"
+msgstr ""
+
+#: ../functions.php:76
+msgid "US Telephone"
+msgstr ""
+
+#: ../functions.php:77
+msgid "US Zipcode"
+msgstr ""
+
+#: ../functions.php:78
+msgid "Standard URL"
+msgstr ""
+
+#: ../integrations.php:109
+msgid "custom fields"
+msgstr ""
+
+#: ../integrations.php:154
+msgid "Select values"
+msgstr ""
+
+#: ../integrations.php:189
+msgid "Add User"
+msgstr ""
+
+#: ../integrations.php:189
+msgid "Update User"
+msgstr ""
+
+#: ../integrations.php:251
+msgid "User's data updated"
+msgstr ""
+
+#: ../integrations.php:252
+msgid ""
+"Hello,\n"
+"%USERNAME% has just updated its data through custom form."
+msgstr ""
+
+#: ../integrations.php:259
+msgid "E-mail admins on custom form submission?"
+msgstr ""
+
+#: ../integrations.php:264
+msgid "If checked, notifies admins if a custom form is submitted by an user"
+msgstr ""
+
+#: ../integrations.php:267
+msgid "Receiver e-mail address"
+msgstr ""
+
+#: ../integrations.php:271
+msgid ""
+"Notification receivers - multiple addresses supported, <strong>comma split</"
+"strong>"
+msgstr ""
+
+#: ../integrations.php:276
+msgid "E-mail builder"
+msgstr ""
+
+#: ../integrations.php:279
+msgid "Allowed Variables for title and text"
+msgstr ""
+
+#: ../integrations.php:284
+msgid "Website url (link)"
+msgstr ""
+
+#: ../integrations.php:288
+msgid "Website title specified in the WP settings"
+msgstr ""
+
+#: ../integrations.php:292
+msgid "User's Name"
+msgstr ""
+
+#: ../integrations.php:296
+msgid "User's Surname"
+msgstr ""
+
+#: ../integrations.php:300
+msgid "User's Username"
+msgstr ""
+
+#: ../integrations.php:304
+msgid "User Categories"
+msgstr ""
+
+#: ../integrations.php:307
+msgid "Remember you can user User Data add-on shortcodes to print custom data"
+msgstr ""
+
+#: ../integrations.php:313
+msgid "E-mail title"
+msgstr ""
+
+#: ../integrations.php:319
+msgid "E-mail text"
+msgstr ""
+
+#: ../integrations.php:347
+msgid "admin notification - receivers"
+msgstr ""
+
+#: ../integrations.php:348
+msgid "admin notification - title"
+msgstr ""
+
+#: ../integrations.php:349
+msgid "admin notification - text"
+msgstr ""
+
+#: ../lc_update_notifier.php:222
+msgid "The following premium plugins have new versions available"
+msgstr ""
+
+#: ../lc_update_notifier.php:241
+msgid "You have version"
+msgstr ""
+
+#: ../lc_update_notifier.php:241
+msgid "installed"
+msgstr ""
+
+#: ../pc_user_data.php:35
+msgid "Please activate PrivateContent plugin to use the \"User Data\" add-on"
+msgstr ""
+
+#: ../pc_user_data.php:244
+msgid "requires at least"
+msgstr ""
+
+#: ../shortcodes.php:52
+msgid "Submit"
+msgstr ""
+
+#: ../tinymce_integration.php:7
+msgid "User Data add-on"
+msgstr ""
+
+#: ../tinymce_integration.php:25
+msgid "User data to display"
+msgstr ""
+
+#: ../tinymce_integration.php:37
+msgid "Insert"
+msgstr ""
+
+#: ../tinymce_integration.php:42
+msgid "Custom form"
+msgstr ""
+
+#: ../tinymce_integration.php:46
+msgid "Custom form to use"
+msgstr "Custom form da utilizzare"
+
+#: ../tinymce_integration.php:48
+msgid "Select form"
+msgstr ""
+
+#: ../tinymce_integration.php:58
+msgid "Layout"
+msgstr ""
+
+#: ../tinymce_integration.php:61
+msgid "Default one"
+msgstr ""
+
+#: ../tinymce_integration.php:62
+msgid "Single column"
+msgstr ""
+
+#: ../tinymce_integration.php:63
+msgid "Fluid (multi column)"
+msgstr ""
+
+#: ../tinymce_integration.php:66
+msgid "Insert form"
+msgstr ""
+
+#: ../tinymce_integration.php:73
+msgid "Conditional block"
+msgstr ""
+
+#: ../tinymce_integration.php:77
+msgid "Show content if"
+msgstr ""
+
+#: ../tinymce_integration.php:93
+msgid "is equal to"
+msgstr ""
+
+#: ../tinymce_integration.php:94
+msgid "is different from"
+msgstr ""
+
+#: ../tinymce_integration.php:95
+msgid "is greater than"
+msgstr ""
+
+#: ../tinymce_integration.php:96
+msgid "is lower than"
+msgstr ""
+
+#: ../tinymce_integration.php:97
+msgid "contains"
+msgstr ""
+
+#: ../tinymce_integration.php:105
+msgid "Insert block"
+msgstr ""
+
+#~ msgid "Select a field"
+#~ msgstr "Seleziona un campo"
+
+#~ msgid "Add a New Field"
+#~ msgstr "Aggiungi nuovo campo"
+
+#~ msgid "Add a Field"
+#~ msgstr "Aggiungi un campo"
+
+#, fuzzy
+#~ msgid "System Behaviour"
+#~ msgstr "Seleziona una collezione"
+
+#, fuzzy
+#~ msgid "Select a list"
+#~ msgstr "Seleziona una collezione"
+
+#, fuzzy
+#~ msgid "Search links for"
+#~ msgstr "Seleziona una collezione"
+
+#, fuzzy
+#~ msgid "Search Links"
+#~ msgstr "Seleziona una collezione"
+
+#, fuzzy
+#~ msgid "Popular Links"
+#~ msgstr "Seleziona una collezione"
+
+#, fuzzy
+#~ msgid "Parent Link"
+#~ msgstr "Seleziona una collezione"
+
+#, fuzzy
+#~ msgid "Parent Link:"
+#~ msgstr "Seleziona una collezione"
+
+#~ msgid "Add New Link"
+#~ msgstr "Aggiungi nuovo link"
+
+#~ msgid "Add New Gallery"
+#~ msgstr "Aggiungi Galleria"
+
+#~ msgid "No galleries found"
+#~ msgstr "Nessuna galleria trovata"
+
+#, fuzzy
+#~ msgid "No galleries found in Trash"
+#~ msgstr "Nessuna galleria trovata"
+
+#, fuzzy
+#~ msgid "All Collections"
+#~ msgstr "Seleziona una collezione"
+
+#, fuzzy
+#~ msgid "Edit Collection"
+#~ msgstr "Seleziona una collezione"
+
+#, fuzzy
+#~ msgid "New Collection"
+#~ msgstr "Seleziona una collezione"
+
+#, fuzzy
+#~ msgid "Save the collection"
+#~ msgstr "Seleziona una collezione"
+
+#~ msgid "Border width of the lightbox"
+#~ msgstr "Larghezza bordi della lightbox"

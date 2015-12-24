@@ -1,0 +1,550 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PrivateContent 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-12-19 11:54+0100\n"
+"PO-Revision-Date: 2015-12-19 11:54+0100\n"
+"Last-Translator: \n"
+"Language-Team: LCweb\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;__;__e\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.8.6\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SearchPath-0: private-content\n"
+"X-Poedit-SearchPath-1: private-content-user-data\n"
+"X-Poedit-SearchPath-2: private-content-mail-actions\n"
+
+#: classes/pc_form_framework.php:30
+msgid "First name"
+msgstr ""
+
+#: classes/pc_form_framework.php:30
+msgid "Name"
+msgstr "Имя"
+
+#: classes/pc_form_framework.php:36
+msgid "User first name"
+msgstr ""
+
+#: classes/pc_form_framework.php:36 classes/pc_form_framework.php:45
+msgid "User name"
+msgstr ""
+
+#: classes/pc_form_framework.php:39
+msgid "Last name"
+msgstr ""
+
+#: classes/pc_form_framework.php:39
+msgid "Surname"
+msgstr "Фамилия"
+
+#: classes/pc_form_framework.php:45
+msgid "User last name"
+msgstr ""
+
+#: classes/pc_form_framework.php:48 classes/pc_form_framework.php:486
+#: public_api.php:149
+msgid "Username"
+msgstr "Имя пользователя"
+
+#: classes/pc_form_framework.php:54
+msgid "Username used for the login"
+msgstr ""
+
+#: classes/pc_form_framework.php:58 classes/pc_form_framework.php:546
+#: public_api.php:154
+msgid "Password"
+msgstr "Пароль"
+
+#: classes/pc_form_framework.php:64
+msgid "Password used for the login"
+msgstr ""
+
+#: classes/pc_form_framework.php:68
+msgid "Category"
+msgstr "Категория"
+
+#: classes/pc_form_framework.php:73
+#, fuzzy
+msgid "Categories"
+msgstr "Категория"
+
+#: classes/pc_form_framework.php:78
+msgid "E-Mail"
+msgstr "E-Mail"
+
+#: classes/pc_form_framework.php:84
+msgid "User E-mail"
+msgstr ""
+
+#: classes/pc_form_framework.php:88
+msgid "Telephone"
+msgstr "Телефон"
+
+#: classes/pc_form_framework.php:94
+msgid "User Telephone"
+msgstr ""
+
+#: classes/pc_form_framework.php:97 user_registration.php:62
+msgid "Disclaimer"
+msgstr ""
+
+#: classes/pc_form_framework.php:104
+msgid "Registration disclaimer"
+msgstr ""
+
+#: classes/pc_form_framework.php:213 classes/pc_form_framework.php:427
+msgid "Repeat password"
+msgstr ""
+
+#: classes/pc_form_framework.php:475
+msgid "Password strength"
+msgstr ""
+
+#: classes/pc_form_framework.php:486
+msgid "Another user already has this username"
+msgstr "Пользователь с таким именем уже существует"
+
+#: classes/pc_form_framework.php:497
+msgid "One or more chosen categories are wrong"
+msgstr ""
+
+#: classes/pc_form_framework.php:532
+msgid "characters and digits"
+msgstr ""
+
+#: classes/pc_form_framework.php:535
+msgid "an uppercase character"
+msgstr ""
+
+#: classes/pc_form_framework.php:538
+msgid "a symbol"
+msgstr ""
+
+#: classes/pc_form_framework.php:542
+msgid "must contain at least "
+msgstr ""
+
+#: classes/simple_form_validator.php:327
+msgid "minimum value is"
+msgstr "минимальное значение"
+
+#: classes/simple_form_validator.php:340
+msgid "maximum value is"
+msgstr "максимальное значение"
+
+#: classes/simple_form_validator.php:353
+msgid "must be at least of"
+msgstr ""
+
+#: classes/simple_form_validator.php:353 classes/simple_form_validator.php:379
+msgid "characters"
+msgstr "символы"
+
+#: classes/simple_form_validator.php:366
+msgid "maximum"
+msgstr "максимум"
+
+#: classes/simple_form_validator.php:366
+msgid "characters allowed"
+msgstr "допустимые символы"
+
+#: classes/simple_form_validator.php:379
+#, fuzzy
+msgid "must be long"
+msgstr "должен быть длинным"
+
+#: classes/simple_form_validator.php:423
+msgid "Select"
+msgstr "Выбрать"
+
+#: classes/simple_form_validator.php:423
+msgid "options"
+msgstr "опции"
+
+#: classes/simple_form_validator.php:435
+msgid "Maximum"
+msgstr "Максимум"
+
+#: classes/simple_form_validator.php:435
+msgid "options allowed"
+msgstr "допустимые опции"
+
+#: classes/simple_form_validator.php:511
+msgid "are required"
+msgstr "требуются"
+
+#: classes/simple_form_validator.php:511
+msgid "is required"
+msgstr "требуется"
+
+#: classes/simple_form_validator.php:515
+msgid "are not valid integers"
+msgstr "не являются целыми числами"
+
+#: classes/simple_form_validator.php:515
+msgid "is not a valid integer"
+msgstr "не является целым числом"
+
+#: classes/simple_form_validator.php:519
+msgid "are not valid floating numbers"
+msgstr "не являются допустимыми числами с плавающей запятой"
+
+#: classes/simple_form_validator.php:519
+msgid "is not a valid floating number"
+msgstr "не является допустимым числом с плавающей запятой"
+
+#: classes/simple_form_validator.php:523
+msgid "are not valid e-mail addresses"
+msgstr "не являются действительными E-mail адресами"
+
+#: classes/simple_form_validator.php:523
+msgid "is not a valid e-mail address"
+msgstr "не является допустимым E-mail адресом"
+
+#: classes/simple_form_validator.php:527
+msgid "are not valid dates"
+msgstr "не являются допустимыми датами"
+
+#: classes/simple_form_validator.php:527
+msgid "is not a valid date"
+msgstr "не является допустимой датой"
+
+#: classes/simple_form_validator.php:531
+msgid "are not valid times"
+msgstr "не является допустимыми временем"
+
+#: classes/simple_form_validator.php:531
+msgid "is not a valid time"
+msgstr "не является допустимыми временем"
+
+#: classes/simple_form_validator.php:535
+msgid "are not valid urls"
+msgstr "не являются допустимыми URL-адресами"
+
+#: classes/simple_form_validator.php:535
+msgid "is not a valid url"
+msgstr "не является допустимым URL-адресом"
+
+#: classes/simple_form_validator.php:539
+msgid "are not valid hexadecimal colors"
+msgstr "не являются допустимыми шестнадцатеричными цветами"
+
+#: classes/simple_form_validator.php:539
+msgid "is not a valid hexadecimal color"
+msgstr "не является допустимым шестнадцатеричным цветом"
+
+#: classes/simple_form_validator.php:543
+msgid "are not valid IP addresses"
+msgstr "не являются допустимыми IP адресами"
+
+#: classes/simple_form_validator.php:543
+msgid "is not a valid IP address"
+msgstr "не является допустимым IP адресом"
+
+#: classes/simple_form_validator.php:547
+msgid "are not valid ZIP codes"
+msgstr "не являются допустимыми почтовыми индексами"
+
+#: classes/simple_form_validator.php:547
+msgid "is not a valid ZIP code"
+msgstr "не является допустимым почтовым индексом"
+
+#: classes/simple_form_validator.php:551
+msgid "are not valid telephone numbers"
+msgstr "не являются допустимыми номерами телефона"
+
+#: classes/simple_form_validator.php:551
+msgid "is not a valid telephone number"
+msgstr "не является допустимым номером телефона"
+
+#: classes/simple_form_validator.php:554
+msgid "invalid data inserted"
+msgstr "введены недопустимые данные"
+
+#: classes/simple_form_validator.php:558
+msgid "values are not between the allowed"
+msgstr "значения не находятся среди разрешенных"
+
+#: classes/simple_form_validator.php:558
+msgid "value is not between the allowed"
+msgstr "значение не находится среди разрешенных"
+
+#: classes/simple_form_validator.php:562
+msgid "values are between the forbidden"
+msgstr "значения находятся среди запрещенных"
+
+#: classes/simple_form_validator.php:562
+msgid "values is between the forbidden"
+msgstr "значение находится среди запрещенных"
+
+#: classes/simple_form_validator.php:565
+msgid "the value doesn't match"
+msgstr "значения не совпадают"
+
+#: classes/simple_form_validator.php:568
+msgid "file size is wrong"
+msgstr "неправильный размер файла"
+
+#: classes/users_manag.php:398
+msgid "no access"
+msgstr ""
+
+#: classes/users_manag.php:401
+msgid "ago"
+msgstr ""
+
+#: classes/users_manag.php:470 classes/users_manag.php:639
+msgid "Disable private page"
+msgstr ""
+
+#: classes/users_manag.php:516
+msgid "Error during user page creation"
+msgstr ""
+
+#: classes/users_manag.php:553
+msgid "Error inserting user data into database"
+msgstr ""
+
+#: classes/users_manag.php:554 classes/users_manag.php:695
+#: classes/users_manag.php:696
+msgid "Error updating user data into database"
+msgstr ""
+
+#: classes/users_manag.php:757
+msgid "Wrong status value"
+msgstr ""
+
+#: classes/users_manag.php:766
+msgid "Another user has the same e-mail"
+msgstr "Другой пользователь имеет тот-же E-mail адрес"
+
+#: classes/users_manag.php:776
+msgid "Another user has the same username or e-mail"
+msgstr ""
+
+#: classes/users_manag.php:786
+msgid "WP sync - another user has the same e-mail"
+msgstr ""
+
+#: comment_hack.php:10
+msgid "login"
+msgstr "вход"
+
+#: public_api.php:168
+msgid "remember me"
+msgstr ""
+
+#: public_api.php:179
+msgid "Login"
+msgstr "Войти"
+
+#: public_api.php:205
+msgid "Logout"
+msgstr "Выйти"
+
+#: public_api.php:345
+msgid "You have to set registered users default category in settings"
+msgstr ""
+
+#: public_api.php:357 public_api.php:366
+msgid "No registration forms found"
+msgstr ""
+
+#: public_api.php:374
+msgid "Username and password fields are mandatory"
+msgstr ""
+
+#: public_api.php:427
+msgid "Submit"
+msgstr "Отправить"
+
+#: public_api.php:460
+msgid "You must be logged in to view this content"
+msgstr "Необходимо войти в систему для просмотра этого контента"
+
+#: public_api.php:461
+msgid "Sorry, you don't have the right permissions to view this content"
+msgstr "К сожалению, у вас нет прав для просмотра этого контента"
+
+#: public_api.php:463
+msgid "You must be logged in to post comments"
+msgstr ""
+
+#: public_api.php:464
+msgid "Sorry, you don't have the right permissions to post comments"
+msgstr ""
+
+#: public_api.php:466
+msgid "You don't have a reserved area"
+msgstr "У Вас нет закрытой области"
+
+#: public_api.php:467
+msgid "Logged successfully, welcome!"
+msgstr ""
+
+#: public_api.php:468
+msgid "Sorry, your account has not been activated yet"
+msgstr "Извините, Ваша учетная запись еще не активирована"
+
+#: public_api.php:469
+msgid "Registration was successful. Welcome!"
+msgstr ""
+
+#: user_auth.php:70
+msgid "Incorrect username or password"
+msgstr ""
+
+#: user_auth.php:81
+msgid "Username or password incorrect"
+msgstr "Имя пользователя или пароль неверные"
+
+#: user_registration.php:21
+msgid "Form not found"
+msgstr ""
+
+#: user_registration.php:56
+msgid "wasn't entered correctly"
+msgstr "был введен неверно"
+
+#: user_registration.php:62
+msgid "must be accepted to proceed with registration"
+msgstr ""
+
+#~ msgid "Username not found or disabled"
+#~ msgstr "Имя пользователя не найдено или отключено"
+
+#~ msgid "Your account doesn't have an e-mail"
+#~ msgstr "Ваша учетная запись не содержит E-mail адреса"
+
+#~ msgid "Error sending the e-mail"
+#~ msgstr "Ошибка при отправке электронной почты"
+
+#~ msgid "The password has been sent to your e-mail"
+#~ msgstr "Пароль был отправлен на Ваш E-mail"
+
+#, fuzzy
+#~ msgid "forgot password?"
+#~ msgstr "Забыли пароль?"
+
+#~ msgid "Recover"
+#~ msgstr "Восстановить"
+
+#~ msgid "Back to login form"
+#~ msgstr "Вернуться к форме входа"
+
+#, fuzzy
+#~ msgid "E-mail Verification"
+#~ msgstr "отменить проверку"
+
+#~ msgid "Account succesfully verified via e-mail"
+#~ msgstr "Учетная запись успешно проверена посредством E-mail"
+
+#~ msgid "cancel verification"
+#~ msgstr "отменить проверку"
+
+#~ msgid "Verification Impossible - User has no e-mail"
+#~ msgstr "Проверка невозможна - У пользователя нет E-mail адреса"
+
+#~ msgid "Account not verified yet"
+#~ msgstr "Учетная запись еще не проверена"
+
+#~ msgid "E-mail"
+#~ msgstr "E-mail"
+
+#~ msgid "Sorry, your request is invalid or your account has been deleted"
+#~ msgstr ""
+#~ "К сожалению, Ваш запрос недействителен или ваша учетная запись была "
+#~ "удалена"
+
+#~ msgid "Your account has been already activated!"
+#~ msgstr "Ваша учетная запись уже была активирована!"
+
+#~ msgid "Your account has been activated succesfully!"
+#~ msgstr "Ваша учетная запись была активирована успешно!"
+
+#~ msgid "Data saved succesfully"
+#~ msgstr "Данные сохранены успешно"
+
+#~ msgid ""
+#~ "Form submitted successfully. You are not logged as an user so nothing has "
+#~ "been saved"
+#~ msgstr ""
+#~ "Форма успешно отправлена. Вы не зарегистрированы в качестве пользователя, "
+#~ "ничего не было сохранено"
+
+#~ msgid "Repeat"
+#~ msgstr "Повторить"
+
+#, fuzzy
+#~ msgid "You have to set the default category for registered users"
+#~ msgstr ""
+#~ "Необходимо выбрать категорию по умолчанию для зарегистрированных "
+#~ "пользователей."
+
+#~ msgid "Logged succesfully, welcome!"
+#~ msgstr "Вы вошли успешно, добро пожаловать!"
+
+#, fuzzy
+#~ msgid "Invalid Category"
+#~ msgstr "Категория"
+
+#~ msgid "Error during user registration, contact the website administrator"
+#~ msgstr "Ошибка при регистрации, обратитесь к администратору сайта"
+
+#~ msgid "Registration was succesful. Welcome!"
+#~ msgstr "Регистрация прошла успешно. Добро пожаловать!"
+
+#, fuzzy
+#~ msgid "Sorry, your account has been disabled"
+#~ msgstr "Извините, Ваша учетная запись еще не активирована"
+
+#~ msgid "Error processing the action"
+#~ msgstr "Ошибка при обработке действия"
+
+#~ msgid "No categories found .. "
+#~ msgstr "Категории не найдены .."
+
+#~ msgid "All users"
+#~ msgstr "Все пользователи"
+
+#~ msgid "Subscriber"
+#~ msgstr "Подписчик"
+
+#~ msgid "Contributor"
+#~ msgstr "Спонсор"
+
+#~ msgid "Author"
+#~ msgstr "Автор"
+
+#~ msgid "Editor"
+#~ msgstr "Редактор"
+
+#~ msgid "Administrator"
+#~ msgstr "Администратор"
+
+#~ msgid "minimum"
+#~ msgstr "минимум"
+
+#~ msgid "PrivateContent - Custom Fields Builder"
+#~ msgstr "PrivateContent - Конструктор Пользовательских Полей"
+
+#~ msgid "Fields saved"
+#~ msgstr "Поля сохранены"
+
+#~ msgid "PrivateContent - Custom Form Builder"
+#~ msgstr "PrivateContent - Конструктор Пользовательских Форм"
+
+#~ msgid "Form submitted successfully. In this demo no data could be saved"
+#~ msgstr ""
+#~ "Форма успешно отправлена. В демонстрационной версии данные не будут "
+#~ "сохранены"
+
+#~ msgid "verify manually"
+#~ msgstr "проверить вручную"

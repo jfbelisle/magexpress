@@ -1,0 +1,703 @@
+.lcwp_form h3 {
+    border-bottom: 1px solid #DFDFDF;
+    font-size: 14px;
+    margin: 20px 0 0;
+    padding: 10px 0;
+}
+
+.pc_form label {
+	padding-right: 15px;
+}
+.pc_req_field {
+	color: #F30;	
+}
+#pc_ulist_filter {
+	width: 200px;	
+	margin-top: 3px;
+}
+#pc_ulist_action {
+	width: 130px;
+}
+.pc_trigger {
+	cursor: pointer;	
+}
+.del_pc_user {
+	color: #21759B;	
+}
+.del_pc_user:hover {
+	color: #d54e21;	
+}
+
+.pc_table {
+	margin-bottom: 35px;	
+}
+.pc_table td {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	vertical-align: middle;
+	overflow: visible;
+	
+	background:  #fdfdfd;
+    border-bottom: 1px solid #fff;
+	border-top: 1px solid #E9E9E9;
+    color: #444444;
+}
+.pc_table .pc_label_td {
+	width: 27%;	
+}
+.pc_table .pc_field_td {
+	width: 250px;	
+}
+.pc_table .pc_field_td > input,
+.pc_table .pc_field_td > textarea,
+.pc_table .pc_field_td > select {
+	width: 90%;
+}
+.pc_table .pc_field_td > select {
+	width: 221px;
+}
+.pc_table .info {
+	font-family: sans-serif;
+    font-size: 12px;
+    font-style: italic;
+	color: #999;	
+	vertical-align: middle;
+}
+.pc_table .lcwp_slider {
+    width: 57%;
+	display: inline-block;	
+	padding: 0;
+}
+.pc_table input.lcwp_slider_input {
+	width: 50px;	
+	margin-left: 3px;
+	margin-top: 6px;
+	text-align: center;
+}
+.pc_table .chosen-container-multi .search-field input {
+	min-height: 25px;	
+}
+
+#pc_cats_wrap input {
+	margin-bottom: -2px;	
+}
+
+.lcwp_form input.button-primary,
+.pc_form input.button-primary {
+	font-size: 12px !important;	
+}
+
+.pc_loading {
+	display: inline-block;
+	background: url(../img/loader.gif) no-repeat top left transparent;
+	width: 20px;
+	height: 20px;	
+}
+
+/* colpick - colorpicker */
+.lcwp_colpick {
+	display: inline-block;
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+.lcwp_colpick .lcwp_colblock {
+    height: 98%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 29px;
+	border: 1px solid #DDDDDD;
+	
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;	
+}
+.lcwp_colpick input {
+	padding-right: 28px; 	
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-right: 0;
+	width: 110px;
+	min-width: 110px;
+	max-width: 110px;
+}
+.colpick {
+	z-index: 9999999;	
+}
+
+/* chosen multi dropdown */
+.chosen-container-multi .chosen-drop {
+	min-width: 200px;	
+}
+
+
+/************************************************/
+
+/* settings - registration form builder */
+#pc_reg_form_builder_cmd_wrap {
+	width: 100%;
+	max-width: 800px;	
+	float: left;
+}
+#pc_reg_form_builder_cmd_wrap input[type=text],
+#pc_reg_form_builder_cmd_wrap select {
+	width: 98%;
+	min-width: 200px;	
+}
+#pc_reg_form_cmd input {
+	box-shadow: none;
+	-webkit-transition: background-color .4s ease-in, color .4s ease-in; 
+	-ms-transition: 	background-color .4s ease-in, color .4s ease-in; 
+	transition: 		background-color .4s ease-in, color .4s ease-in; 
+}
+#pc_reg_form_loader {
+	padding-left: 15px;
+	position: relative;
+	top: 12px;	
+}
+#pc_reg_form_builder {
+	clear: both;
+	margin: 20px 0 30px;;	
+}
+#pc_reg_form_builder table {
+	tablewidth: 100%;
+	max-width: 800px;	
+}
+#pc_rf_add_f_table {
+	margin-bottom: 5px;	
+}
+#pc_rf_add_f_table input[type=text],
+#pc_rf_add_f_table select {
+	width: 69%;	
+	min-width: 200px;
+}
+#pc_rf_builder_table textarea {
+	width: 100%;
+	height: 25px;	
+}
+
+
+/* users list table */
+.pc_users_list {
+	margin: 10px 0 12px !important;	
+	min-width: 1080px;
+}
+.pc_users_list tr:hover td {
+	background: #f8f8f8;
+}
+.pc_users_list_navbar {
+	margin-top: 40px;	
+}
+.pc_users_list_navbar.pc_bottom_navbar {
+	margin-top: 0px;	
+}
+.pc_users_list_navbar .button-secondary {
+	margin-top: 3px;	
+}
+.pc_users_list_navbar > label {
+	padding-right: 5px;
+}
+.pc_users_list_navbar .pc_ulist_search_field {
+	bottom: -2px;
+    font-size: 95%;
+    min-height: 28px;
+    position: relative;
+    min-width: 215px;
+}
+.pc_users_list_navbar .tablenav-pages a {
+	border: 1px solid #e9e9e9;
+}
+.pc_ulist_icons {
+	vertical-align: middle;			
+}
+.pc_ulist_icons span, .pc_ulist_icons a {
+	display: inline-block;
+	width: 18px;
+	height: 20px;
+	vertical-align: middle;	
+}
+.pc_ulist_icons span img, .pc_ulist_icons a img {
+	display: inline-block;
+	max-width: 100%;	
+}
+.pc_ulist_icons .v_divider {
+	color: #afafaf;
+    padding: 0 8px 0 2px !important;
+    width: 0 !important;
+}
+.pc_edit_user_link {
+	display: inline-block;
+	width: 100%;
+	height: 100%;	
+}
+.pc_ulist_icons a:focus,
+.pc_edit_user_link:focus {
+	box-shadow: none;	
+}
+
+.pc_users_list .pc_filter_th {
+	cursor: pointer;	
+}
+.pc_ulist_badges {
+	padding-right: 3px !important;
+	padding-left: 3px !important;	
+}
+.pc_ulist_badges > * {
+	max-width: 15px;
+	display: block;	
+	margin: 2px 0;
+	cursor: help;
+}
+.pc_filter_th.active_asc:after,
+.pc_filter_th.active_desc:after {
+	bottom: -4px;
+    font-family: "dashicons";
+    font-size: 20px;
+    height: 0;
+    line-height: 0;
+    position: relative;
+}
+.pc_filter_th.active_asc:after {content: "\f142";}
+.pc_filter_th.active_desc:after {content: "\f140";}
+
+/* magnific popup z-indexfix for WP menu */
+.toplevel_page_pc_user_manage .mfp-bg {
+	z-index: 91042;	
+}
+.toplevel_page_pc_user_manage .mfp-wrap {
+	z-index: 91043;	
+}
+
+
+/* advanced search form */
+.button-primary.pc_advanced_search_btn {
+	font-size: 13px;
+	margin-top: 3px;	
+}
+#pc_adv_search,
+#pc_bulk_cat_change {
+	width: 95%;
+	max-width: 500px;
+	background: #fff;
+    padding: 43px 30px 35px;
+    position: relative;
+    text-align: left;
+	margin: 40px auto;	
+}
+#pc_adv_search table {
+	margin-bottom: 0 !important;	
+}
+#pc_as_conds {
+	border: none !important;
+	margin-top: 20px;	
+	box-shadow: none !important;
+}
+#pc_as_conds td {	
+	background: #fdfdfd !important;
+	border-width: 0 0 1px 0;
+	border-color: #dfdfdf;
+	position: relative;
+}
+#pc_as_conds tr:first-child td {
+	border-bottom: 1px;	
+}
+.pc_as_remove_cond {
+    font-size: 15px;
+    line-height: 18px;
+    color: #888;
+	position: absolute;
+	left: 10px;
+	top: 11px;
+	opacity: 0.45;
+	cursor: pointer;
+}
+.pc_as_remove_cond:hover {
+	opacity: 0.7;
+}
+#pc_as_conds tr h4 {
+	margin: 0 0 0 26px;
+}
+#pc_as_conds tr h4 {
+	font-size: 14px;
+	margin-bottom: 6px;
+}
+#pc_as_conds tr div > * {
+	margin: 0;	
+}
+
+
+/* bulk change categories */
+#pc_bulk_cat_change .chosen-container-multi li.search-field input {
+	height: 25px;	
+}
+.pc_bcc_response {
+	display: inline-block;	
+}
+
+
+/* widget control box */
+.pc_widget_control_wrap {
+	border-bottom: 2px dashed #ccc;
+    border-top: 2px dashed #ccc;
+    padding: 5px 0 14px;
+}
+.pc_widget_control_wrap .chosen-container-multi li.search-field input {
+	height: 25px !important;	
+}
+
+
+/* user pvt page - preview link */
+#pc_pp_preview_link {
+    display: inline-block;
+    text-decoration: none;
+	position: relative;
+	float: left;
+	top: 6px;
+}
+
+
+/* user categories - tweaks and custom fields */
+.taxonomy-pg_user_categories #addtag > .form-field:nth-of-type(2),
+.taxonomy-pg_user_categories #the-list .inline-edit-col > label:nth-of-type(2),
+.taxonomy-pg_user_categories #edittag tr.form-field:nth-of-type(2) {
+	display: none !important;	
+}
+
+
+/* pc redirect metabox */
+.pc_tax_cat_list .chosen-container-multi {
+	width: 100% !important; 	
+}
+
+.pc_add_user .chosen-container-multi {
+	width: 90% !important;	
+	border: 1px solid #DFDFDF !important;
+}
+.pc_add_user .search-choice {
+    border: 1px solid #AAAAAA !important;
+    box-shadow: 0 0 2px #FFFFFF inset, 0 1px 0 rgba(0, 0, 0, 0.05) !important;
+    color: #333333 !important;
+    margin: 3px 0 3px 5px !important;
+    padding: 3px 20px 3px 5px !important;
+}
+
+.pc_tax_opt .chosen-container-multi {
+	width: 100% !important; 
+	max-width: 550px;	
+}
+
+.pc_tax_cat_list .chosen-container-multi .default,
+.pc_menu_restr_wrap .chosen-container-multi .default,
+.pc_tax_opt .chosen-container-multi .default,
+.pc_add_user .chosen-container-multi .default {
+	min-height: 25px !important;
+	width: 122px !important;	
+}
+.pc_tax_cat_list .chosen-container-multi .chosen-choices,
+.pc_menu_restr_wrap .chosen-container-multi .chosen-choices,
+.pc_tax_opt .chosen-container-multi .chosen-choices,
+.pc_add_user .chosen-container-multi .chosen-choices {
+	border-color: #DCDCDC;	
+	box-shadow: none;
+	background-image: linear-gradient(#EFEFEF -12%, #FFFFFF 15%);
+}
+.pc_tax_cat_list .chosen-container-multi.chosen-container-active .chosen-choices,
+.pc_menu_restr_wrap .chosen-container-multi.chosen-container-active .chosen-choices,
+.pc_tax_opt .chosen-container-multi.chosen-container-active .chosen-choices {
+	border-color: #AAA;
+	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+
+/* nav menu restriction field */
+.pc_menu_restr_wrap {
+	margin-bottom: 3px !important;
+    margin-top: 9px !important;
+}
+.pc_menu_restr_wrap > label {
+	padding-bottom: 6px;
+}
+
+
+/* edit user - change status box */
+#pc_man_user_edit_status_wrap {
+	float: right;
+	margin-right: 9%;	
+}
+#pc_man_user_edit_status_wrap a {
+	display: inline-block;
+	width: 19px;
+	height: 19px;
+	padding: 0 2px;
+	position: relative;
+	bottom: -3px;
+}
+#pc_man_user_edit_status_wrap a:hover,
+#pc_man_user_edit_status_wrap a:focus {
+	box-shadow: none !important;	
+}
+#pc_man_user_edit_status_wrap img {
+	max-width: 19px;	
+}
+
+/* edit user - status box */
+.pc_edit_user_status {
+	border-radius: 2px;
+    border-style: solid;
+    border-width: 1px;
+    display: inline-block;
+    font-weight: bold;
+    padding: 3px 25px;	
+}
+.pc_eus_legend {
+	position: relative;
+	bottom: -3px;
+	right: -7px;
+	font-style: italic;
+	color: #666;	
+}
+.pc_eus_1 {
+	border-color: #44811F;
+	background-color: #4F9524;
+	color: #fff;
+}
+.pc_eus_2, .pc_eus_3 {
+	border-color: #EAE148;
+	background-color: #ECE459;
+	color: #373737;
+}
+.pc_eus_0 {
+	border-color: #930;
+	background-color: #C00;
+	color: #fff;
+}
+
+
+#icon-pc_user_manage {
+	background: url(../img/pc_page_icon.png) no-repeat center center transparent;	
+}
+
+.pc_sidemeta_catlist {
+	border: 1px solid #DFDFDF;
+    overflow: auto;
+    padding: 0.5em 0.9em;	
+	background-color: #FFFFFF;
+}
+
+#pc_form_creator input {
+	display: block;
+	margin: auto;	
+}
+#pc_form_creator span {
+	display: block;
+	text-align: center;	
+}
+.pc_checkbox_list {
+	margin: 0;	
+}
+.pc_checkbox_list > li {
+	margin: 0;
+	padding: 4px 0;
+}
+.pc_checkbox_list > li > label {
+	padding-left: 15px;	
+	vertical-align: middle;
+	position: relative;
+	top: -4px;
+	display: inline-block;
+}
+.pc_page_title {
+	background: url("../img/lcweb_logo.png") no-repeat scroll right bottom transparent;	
+}
+
+.pc_move_field {
+	display: block;
+	margin: auto;
+	height: 15px;
+	width: 15px;
+	background: url(../img/move_icons.png) no-repeat bottom left transparent;
+	cursor: move;		
+}
+.pc_move_field:hover {
+	background: url(../img/move_icons.png) no-repeat top left transparent;	
+}
+.pc_del_field {
+	display: block;
+	margin: auto;
+	height: 15px;
+	width: 15px;
+	background: url(../img/del_icons.png) no-repeat bottom left transparent;
+	cursor: pointer;		
+}
+.pc_del_field:hover {
+	background: url(../img/del_icons.png) no-repeat top left transparent;	
+}
+
+.pc_check_wrap > label {
+	display: block;
+    float: right;
+    padding: 5px;
+    width: 122px;	
+}
+
+.pc_table td,
+.lcwp_table td {
+	overflow: visible !important;	
+}
+.pc_field_td ul:not(.chosen-choices),
+.pc_field_td ul li:not(.search-choice) {
+	border: none !important;
+}
+
+
+/* restriction helper in pages */
+#pc_page_rest_helper {
+	margin-top: 13px;
+	border-top: 1px dotted #aaa;
+	padding-top: 13px;	
+}
+#pc_page_rest_helper dt {
+	font-size: 13px;	
+}
+#pc_page_rest_helper dd {
+	margin: 1px 0 9px 15px;
+}
+#pc_page_rest_helper strong {
+	color: #6A0000;
+}
+
+
+/* shortcode wizard */
+.mce-ico.mce-i-pc_btn {
+	display: inline-block !important;
+	width: 20px !important;
+	height: 20px !important;
+	background: url(../img/users_icon_tinymce.png) no-repeat top left transparent;	
+}
+#pc_sc_tabs_wrap {
+	background-color: #dfdfdf;
+    border-bottom: 1px solid #dfdfdf;
+    display: block;
+    margin-bottom: 7px;
+    margin-top: -2px;
+}
+#pc_sc_tabs_wrap li {
+	display: inline-block;
+	width: 49.6%;
+	text-align: center;
+	vertical-align: middle;
+	margin: 0px;
+	background: transparent;
+	cursor: pointer;
+}
+#pc_sc_tabs_wrap li:last-child {
+	border: none !important;	
+}
+#pc_sc_tabs_wrap li.ui-tabs-active {
+	background-color: #fff;	
+}
+#pc_sc_tabs_wrap li a {
+	padding: 10px 0px;	
+	display: block;
+	font-size: 110%;
+	font-weight: bold;
+	color: #303030 !important;
+	text-decoration: none !important;	
+}
+#pc_sc_main hr {
+	border-width: 1px 0 0 0;
+	border-color: #ccc;	
+	width: 100%;
+	margin-left: 0px;
+}
+.pc_tinymce_table {
+	width: 100% !important;
+	margin-bottom: 10px !important;	
+}
+.pc_tinymce_table tr td {
+	border-bottom: 1px solid #e6e6e6; 
+	padding: 15px 25px;
+	min-width: 50%;
+}
+.pc_tinymce_table .tbl_last td {
+	border-bottom: none !important;	
+}
+.pc_tinymce_table label {
+	display: block !important;
+	width: 100% !important;	
+	font-size: 13px;
+	margin: 0;
+	padding: 0 0 7px !important;
+}
+.pc_tinymce_table input[type=text],
+.pc_tinymce_table select,
+.pc_tinymce_table textarea {
+	width: 100%;	
+}
+#pc_sc_tabs .search-field,
+#pc_sc_tabs .search-field input {
+	height: 25px;	
+	min-width: 200px;	
+}
+
+
+/* users list */
+.toplevel_page_pc_user_manage .tablenav-pages a {
+	margin-left: 5px;	
+}
+.toplevel_page_pc_user_manage .tablenav-pages a#curr_pag {
+	color: #333 !important;
+	background-color: #FCFCFC !important;	
+}
+
+#pc_user_list_form tbody .content_row:hover {
+	background-color: #ececec;	
+}
+
+/* warning boxes - clone WP4 style */
+.pc_warn {
+	margin: 5px 0 15px;
+	background: #fff;
+	border-left-style: solid;
+	border-left-width: 4px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+    padding: 1px 12px;	
+}
+.pc_warn p {
+	margin: 0.5em 0;
+    padding: 2px;
+}
+.pc_warn a:active, .pc_warn a:focus {
+	box-shadow: none;
+}
+.pc_warn.pc_success {border-left-color: #7ad03a;}
+.pc_warn.pc_warning {border-left-color: #efdd19;}
+.pc_warn.pc_error 	{border-left-color: #dd3d36;}
+
+
+/* datepicker z-index fix in add-user page */
+.pcud_dp #ui-datepicker-div {
+	z-index: 15 !important; 
+ }
+
+
+/* global wp users sync messages wrap */
+.pc_gwps_result {
+	padding-left: 20px;
+	position: relative;
+	bottom: -5px;	
+}
+
+/* hide pvtcontent user filter from wp-admin/users.php */
+.users-php .subsubsub li.pvtcontent {
+	display: none !important;
+}
+
+
+/* WP 4 - remove "view details" link in plugins page */
+body.plugins-php #privatecontent .plugin-version-author-uri a:last-child,
+body.plugins-php #privatecontent-mail-actions-add-on .plugin-version-author-uri a:last-child,
+body.plugins-php #privatecontent-secure-links-add-on .plugin-version-author-uri a:last-child,
+body.plugins-php #privatecontent-user-data-add-on .plugin-version-author-uri a:last-child {
+	display: none !important;	
+}

@@ -1,0 +1,548 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PrivateContent 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-12-19 11:53+0100\n"
+"PO-Revision-Date: 2015-12-19 11:53+0100\n"
+"Last-Translator: \n"
+"Language-Team: LCweb\n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;__;__e\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-SearchPath-0: private-content\n"
+"X-Poedit-SearchPath-1: private-content-user-data\n"
+"X-Poedit-SearchPath-2: private-content-mail-actions\n"
+
+#: classes/pc_form_framework.php:30
+msgid "First name"
+msgstr ""
+
+#: classes/pc_form_framework.php:30
+msgid "Name"
+msgstr "Voornaam"
+
+#: classes/pc_form_framework.php:36
+msgid "User first name"
+msgstr ""
+
+#: classes/pc_form_framework.php:36 classes/pc_form_framework.php:45
+msgid "User name"
+msgstr ""
+
+#: classes/pc_form_framework.php:39
+msgid "Last name"
+msgstr ""
+
+#: classes/pc_form_framework.php:39
+msgid "Surname"
+msgstr "Achternaam"
+
+#: classes/pc_form_framework.php:45
+msgid "User last name"
+msgstr ""
+
+#: classes/pc_form_framework.php:48 classes/pc_form_framework.php:486
+#: public_api.php:149
+msgid "Username"
+msgstr "Gebruikersnaam"
+
+#: classes/pc_form_framework.php:54
+msgid "Username used for the login"
+msgstr ""
+
+#: classes/pc_form_framework.php:58 classes/pc_form_framework.php:546
+#: public_api.php:154
+msgid "Password"
+msgstr "Wachtwoord"
+
+#: classes/pc_form_framework.php:64
+msgid "Password used for the login"
+msgstr ""
+
+#: classes/pc_form_framework.php:68
+msgid "Category"
+msgstr "Categorie"
+
+#: classes/pc_form_framework.php:73
+#, fuzzy
+msgid "Categories"
+msgstr "Categorie"
+
+#: classes/pc_form_framework.php:78
+msgid "E-Mail"
+msgstr "E-mail"
+
+#: classes/pc_form_framework.php:84
+msgid "User E-mail"
+msgstr ""
+
+#: classes/pc_form_framework.php:88
+msgid "Telephone"
+msgstr "Telefoon"
+
+#: classes/pc_form_framework.php:94
+msgid "User Telephone"
+msgstr ""
+
+#: classes/pc_form_framework.php:97 user_registration.php:62
+msgid "Disclaimer"
+msgstr ""
+
+#: classes/pc_form_framework.php:104
+msgid "Registration disclaimer"
+msgstr ""
+
+#: classes/pc_form_framework.php:213 classes/pc_form_framework.php:427
+msgid "Repeat password"
+msgstr ""
+
+#: classes/pc_form_framework.php:475
+msgid "Password strength"
+msgstr ""
+
+#: classes/pc_form_framework.php:486
+msgid "Another user already has this username"
+msgstr "Deze gebruikersnaam is al in gebruik"
+
+#: classes/pc_form_framework.php:497
+msgid "One or more chosen categories are wrong"
+msgstr ""
+
+#: classes/pc_form_framework.php:532
+msgid "characters and digits"
+msgstr ""
+
+#: classes/pc_form_framework.php:535
+msgid "an uppercase character"
+msgstr ""
+
+#: classes/pc_form_framework.php:538
+msgid "a symbol"
+msgstr ""
+
+#: classes/pc_form_framework.php:542
+msgid "must contain at least "
+msgstr ""
+
+#: classes/simple_form_validator.php:327
+msgid "minimum value is"
+msgstr "Minimale waarde is"
+
+#: classes/simple_form_validator.php:340
+msgid "maximum value is"
+msgstr "Maximale waarde is"
+
+#: classes/simple_form_validator.php:353
+msgid "must be at least of"
+msgstr ""
+
+#: classes/simple_form_validator.php:353 classes/simple_form_validator.php:379
+msgid "characters"
+msgstr "karakters"
+
+#: classes/simple_form_validator.php:366
+msgid "maximum"
+msgstr "maximum"
+
+#: classes/simple_form_validator.php:366
+msgid "characters allowed"
+msgstr "karakters toegestaan"
+
+#: classes/simple_form_validator.php:379
+#, fuzzy
+msgid "must be long"
+msgstr "moet lang zijn"
+
+#: classes/simple_form_validator.php:423
+msgid "Select"
+msgstr "selecteerd"
+
+#: classes/simple_form_validator.php:423
+msgid "options"
+msgstr "opties"
+
+#: classes/simple_form_validator.php:435
+msgid "Maximum"
+msgstr "Maximum"
+
+#: classes/simple_form_validator.php:435
+msgid "options allowed"
+msgstr "opties toegestaan"
+
+#: classes/simple_form_validator.php:511
+msgid "are required"
+msgstr "zijn verplicht"
+
+#: classes/simple_form_validator.php:511
+msgid "is required"
+msgstr "is verplicht"
+
+#: classes/simple_form_validator.php:515
+msgid "are not valid integers"
+msgstr "zijn geen correcte waardes"
+
+#: classes/simple_form_validator.php:515
+msgid "is not a valid integer"
+msgstr "is geen correcte waarde"
+
+#: classes/simple_form_validator.php:519
+msgid "are not valid floating numbers"
+msgstr "zijn geen aansluitende nummers"
+
+#: classes/simple_form_validator.php:519
+msgid "is not a valid floating number"
+msgstr "is geen aansluitend nummer"
+
+#: classes/simple_form_validator.php:523
+msgid "are not valid e-mail addresses"
+msgstr "zijn geen correcte e-mail adressen"
+
+#: classes/simple_form_validator.php:523
+msgid "is not a valid e-mail address"
+msgstr "is geen correct e-mail adres"
+
+#: classes/simple_form_validator.php:527
+msgid "are not valid dates"
+msgstr "zijn geen correcte datums"
+
+#: classes/simple_form_validator.php:527
+msgid "is not a valid date"
+msgstr "is geen correcte datum"
+
+#: classes/simple_form_validator.php:531
+msgid "are not valid times"
+msgstr "zijn geen correcte tijden"
+
+#: classes/simple_form_validator.php:531
+msgid "is not a valid time"
+msgstr "is geen correcte tijd"
+
+#: classes/simple_form_validator.php:535
+msgid "are not valid urls"
+msgstr "zijn geen correcte URLs"
+
+#: classes/simple_form_validator.php:535
+msgid "is not a valid url"
+msgstr "is geen correcte url"
+
+#: classes/simple_form_validator.php:539
+msgid "are not valid hexadecimal colors"
+msgstr "zijn geen juiste hexadecimalen (kleuren)"
+
+#: classes/simple_form_validator.php:539
+msgid "is not a valid hexadecimal color"
+msgstr "is geen juiste hexadecimaal (kleur)"
+
+#: classes/simple_form_validator.php:543
+msgid "are not valid IP addresses"
+msgstr "zijn geen geldige IP adressen"
+
+#: classes/simple_form_validator.php:543
+msgid "is not a valid IP address"
+msgstr "is geen geldig IP adres"
+
+#: classes/simple_form_validator.php:547
+msgid "are not valid ZIP codes"
+msgstr "zijn geen geldige postcodes"
+
+#: classes/simple_form_validator.php:547
+msgid "is not a valid ZIP code"
+msgstr "is geen geldige postcode"
+
+#: classes/simple_form_validator.php:551
+msgid "are not valid telephone numbers"
+msgstr "Zijn geen geldige telefoonnumers"
+
+#: classes/simple_form_validator.php:551
+msgid "is not a valid telephone number"
+msgstr "Is geen geldig telefoonnummer"
+
+#: classes/simple_form_validator.php:554
+msgid "invalid data inserted"
+msgstr "Ongeldige data ingevoerd"
+
+#: classes/simple_form_validator.php:558
+msgid "values are not between the allowed"
+msgstr "waardes zijn niet toegestaan"
+
+#: classes/simple_form_validator.php:558
+msgid "value is not between the allowed"
+msgstr "waarde is niet toegestaan"
+
+#: classes/simple_form_validator.php:562
+msgid "values are between the forbidden"
+msgstr "waardes zijn niet toegestaan"
+
+#: classes/simple_form_validator.php:562
+msgid "values is between the forbidden"
+msgstr "waarde is niet toegestaan"
+
+#: classes/simple_form_validator.php:565
+msgid "the value doesn't match"
+msgstr "De waardes komen niet overeen"
+
+#: classes/simple_form_validator.php:568
+msgid "file size is wrong"
+msgstr "bestandsgrootte is foutief"
+
+#: classes/users_manag.php:398
+msgid "no access"
+msgstr ""
+
+#: classes/users_manag.php:401
+msgid "ago"
+msgstr ""
+
+#: classes/users_manag.php:470 classes/users_manag.php:639
+msgid "Disable private page"
+msgstr ""
+
+#: classes/users_manag.php:516
+msgid "Error during user page creation"
+msgstr ""
+
+#: classes/users_manag.php:553
+msgid "Error inserting user data into database"
+msgstr ""
+
+#: classes/users_manag.php:554 classes/users_manag.php:695
+#: classes/users_manag.php:696
+msgid "Error updating user data into database"
+msgstr ""
+
+#: classes/users_manag.php:757
+msgid "Wrong status value"
+msgstr ""
+
+#: classes/users_manag.php:766
+#, fuzzy
+msgid "Another user has the same e-mail"
+msgstr "Deze gebruikersnaam is al in gebruik"
+
+#: classes/users_manag.php:776
+msgid "Another user has the same username or e-mail"
+msgstr ""
+
+#: classes/users_manag.php:786
+msgid "WP sync - another user has the same e-mail"
+msgstr ""
+
+#: comment_hack.php:10
+#, fuzzy
+msgid "login"
+msgstr "Login"
+
+#: public_api.php:168
+msgid "remember me"
+msgstr ""
+
+#: public_api.php:179
+msgid "Login"
+msgstr "Inloggen"
+
+#: public_api.php:205
+msgid "Logout"
+msgstr "Uitloggen"
+
+#: public_api.php:345
+msgid "You have to set registered users default category in settings"
+msgstr ""
+
+#: public_api.php:357 public_api.php:366
+msgid "No registration forms found"
+msgstr ""
+
+#: public_api.php:374
+msgid "Username and password fields are mandatory"
+msgstr ""
+
+#: public_api.php:427
+msgid "Submit"
+msgstr "Verzenden"
+
+#: public_api.php:460
+msgid "You must be logged in to view this content"
+msgstr "Je moet ingelogd zijn om deze inhoud te kunnen bekijken"
+
+#: public_api.php:461
+msgid "Sorry, you don't have the right permissions to view this content"
+msgstr "U heeft niet de juiste rechten om deze inhoud te bekijken"
+
+#: public_api.php:463
+msgid "You must be logged in to post comments"
+msgstr ""
+
+#: public_api.php:464
+msgid "Sorry, you don't have the right permissions to post comments"
+msgstr ""
+
+#: public_api.php:466
+msgid "You don't have a reserved area"
+msgstr "U heeft geen gereserveerde ruimte"
+
+#: public_api.php:467
+msgid "Logged successfully, welcome!"
+msgstr ""
+
+#: public_api.php:468
+msgid "Sorry, your account has not been activated yet"
+msgstr "Sorry, uw account is nog niet geactiveerd"
+
+#: public_api.php:469
+msgid "Registration was successful. Welcome!"
+msgstr ""
+
+#: user_auth.php:70
+msgid "Incorrect username or password"
+msgstr ""
+
+#: user_auth.php:81
+msgid "Username or password incorrect"
+msgstr "Gebruikersnaam of wachtwoord is niet correct"
+
+#: user_registration.php:21
+msgid "Form not found"
+msgstr ""
+
+#: user_registration.php:56
+msgid "wasn't entered correctly"
+msgstr "is niet correct ingevoerd"
+
+#: user_registration.php:62
+msgid "must be accepted to proceed with registration"
+msgstr ""
+
+#~ msgid "Username not found or disabled"
+#~ msgstr "Gebruikersnaam niet gevonden of uitgeschakeld"
+
+#~ msgid "Your account doesn't have an e-mail"
+#~ msgstr "Uw account heeft geen e-mail adres"
+
+#~ msgid "Error sending the e-mail"
+#~ msgstr "Fout bij verzenden van de e-mail"
+
+#~ msgid "The password has been sent to your e-mail"
+#~ msgstr "Het wachtwoord is per mail naar u verzonden"
+
+#, fuzzy
+#~ msgid "forgot password?"
+#~ msgstr "Wachtwoord vergeten?"
+
+#~ msgid "Recover"
+#~ msgstr "Herstellen"
+
+#~ msgid "Back to login form"
+#~ msgstr "Terug naar het inlogformulier"
+
+#, fuzzy
+#~ msgid "E-mail Verification"
+#~ msgstr "Annuleer verificatie"
+
+#~ msgid "Account succesfully verified via e-mail"
+#~ msgstr "Account succesvol geverifieerd via e-mail"
+
+#~ msgid "cancel verification"
+#~ msgstr "Annuleer verificatie"
+
+#~ msgid "Verification Impossible - User has no e-mail"
+#~ msgstr "Verificatie onmogelijk, gebruiker heeft geen geldig e-mailadres."
+
+#~ msgid "Account not verified yet"
+#~ msgstr "Account nog niet geverifieerd"
+
+#~ msgid "E-mail"
+#~ msgstr "E-mail"
+
+#~ msgid "Sorry, your request is invalid or your account has been deleted"
+#~ msgstr "Sorry, uw aanvraag is ongeldig of uw account is verwijderd"
+
+#~ msgid "Your account has been already activated!"
+#~ msgstr "Uw account is reeds geactiveerd"
+
+#, fuzzy
+#~ msgid "Your account has been activated succesfully!"
+#~ msgstr "Gegevens die met succes"
+
+#~ msgid "Data saved succesfully"
+#~ msgstr "Gegevens succesvol opgeslagen"
+
+#~ msgid "Form submitted successfully. You are not logged as an user so nothing has been saved"
+#~ msgstr "Formulier succesvol ingediend. U bent niet ingelogd als gebruiker, hierdoor is er niets opgeslagen"
+
+#~ msgid "Repeat"
+#~ msgstr "Herhaal"
+
+#~ msgid "Welcome"
+#~ msgstr "Welkom"
+
+#, fuzzy
+#~ msgid "You have to set the default category for registered users"
+#~ msgstr "U dient de standaard categorie in te stellen voor geregistreerde gebruikers."
+
+#~ msgid "Logged succesfully, welcome!"
+#~ msgstr "Succesvol ingelogd. Welkom!"
+
+#, fuzzy
+#~ msgid "Invalid Category"
+#~ msgstr "Categorie"
+
+#~ msgid "Error during user registration, contact the website administrator"
+#~ msgstr "Er ging iets fout tijdens de registratie, neem contact op met de website beheerder."
+
+#~ msgid "Registration was succesful. Welcome!"
+#~ msgstr "De registratie is succesvol, welkom!"
+
+#, fuzzy
+#~ msgid "Sorry, your account has been disabled"
+#~ msgstr "Sorry, uw account is nog niet geactiveerd"
+
+#~ msgid "Error processing the action"
+#~ msgstr "Fout bij verwerken van de actie"
+
+#~ msgid "No categories found .. "
+#~ msgstr "Geen categorien gevonden"
+
+#~ msgid "All users"
+#~ msgstr "Alle gebruikers"
+
+#~ msgid "Subscriber"
+#~ msgstr "Inschrijver"
+
+#~ msgid "Contributor"
+#~ msgstr "Deelnemer"
+
+#~ msgid "Author"
+#~ msgstr "Auteur"
+
+#~ msgid "Editor"
+#~ msgstr "Bewerker"
+
+#~ msgid "Administrator"
+#~ msgstr "Administrator"
+
+#~ msgid "minimum"
+#~ msgstr "Minimum"
+
+#~ msgid "PrivateContent - Custom Fields Builder"
+#~ msgstr "PrivateContent - Maatwerk velden"
+
+#~ msgid "Fields saved"
+#~ msgstr "Velden opgeslagen"
+
+#~ msgid "PrivateContent - Custom Form Builder"
+#~ msgstr "PrivateContent - Maatwerk fomulieren"
+
+#, fuzzy
+#~ msgid "Form submitted successfully. In this demo no data could be saved"
+#~ msgstr "Formulier succesvol ingediend. U bent niet ingelogd als gebruiker, zodat er niets is opgeslagen"
+
+#~ msgid "verify manually"
+#~ msgstr "Handmatig Verifieren"
+
+#~ msgid "reCAPTCHA"
+#~ msgstr "reCaptcha"

@@ -1,0 +1,2436 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PrivateContent 4.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-12-11 13:28+0100\n"
+"PO-Revision-Date: 2015-12-11 13:29+0100\n"
+"Last-Translator: \n"
+"Language-Team: LCweb\n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;__;_e\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-SearchPath-0: private-content\n"
+"X-Poedit-SearchPath-1: private-content-user-data\n"
+"X-Poedit-SearchPath-2: private-content-mail-actions\n"
+
+#: admin_ajax.php:10
+msgid "Error processing the action"
+msgstr ""
+
+#: admin_ajax.php:157
+msgid "Please insert a valid form name"
+msgstr ""
+
+#: admin_ajax.php:191
+msgid "Form name"
+msgstr ""
+
+#: admin_ajax.php:193 settings.php:831
+msgid "New form's name"
+msgstr ""
+
+#: admin_ajax.php:197
+msgid "Add field"
+msgstr ""
+
+#: admin_ajax.php:199
+msgid "Add fields"
+msgstr ""
+
+#: admin_ajax.php:207
+msgid "TEXT BLOCK"
+msgstr ""
+
+#: admin_ajax.php:219
+msgid "Field"
+msgstr ""
+
+#: admin_ajax.php:220
+msgid "Required?"
+msgstr ""
+
+#: admin_ajax.php:230 settings.php:1375
+msgid "remove field"
+msgstr ""
+
+#: admin_ajax.php:239 settings.php:1359
+msgid "Supports HTML and shortcodes"
+msgstr ""
+
+#: admin_ajax.php:260 settings.php:1376
+msgid "sort field"
+msgstr ""
+
+#: admin_ajax.php:295
+msgid "Form structure"
+msgstr ""
+
+#: admin_ajax.php:295
+msgid "Username and password fields are mandatory"
+msgstr ""
+
+#: admin_menu.php:12
+msgid "Users List"
+msgstr ""
+
+#: admin_menu.php:13 users/add_user.php:255
+msgid "Add User"
+msgstr "Aggiungi Utente"
+
+#: admin_menu.php:14 user_categories.php:9 user_categories.php:23
+msgid "User Categories"
+msgstr ""
+
+#: admin_menu.php:15 users/import_export.php:21
+msgid "Import & Export Users"
+msgstr ""
+
+#: admin_menu.php:21
+msgid "Settings"
+msgstr ""
+
+#: admin_menu.php:97 admin_menu.php:111
+msgid "Pending Users"
+msgstr ""
+
+#: classes/paginator.php:137 classes/paginator.php:154
+#: classes/paginator.php:170
+msgid "go to page"
+msgstr ""
+
+#: classes/paginator.php:140 classes/paginator.php:174
+msgid "go to the last page"
+msgstr ""
+
+#: classes/paginator.php:149 classes/paginator.php:165
+msgid "go to the first page"
+msgstr ""
+
+#: classes/wp_user_sync.php:21 classes/wp_user_sync.php:139
+msgid "All users already synced"
+msgstr ""
+
+#: classes/wp_user_sync.php:36
+msgid "can't be synced because of their username or e-mail"
+msgstr ""
+
+#: classes/wp_user_sync.php:37
+msgid "Users synced successfully!"
+msgstr ""
+
+#: classes/wp_user_sync.php:176
+msgid "matches found and syncs performed"
+msgstr ""
+
+#: classes/wp_user_sync.php:186
+msgid "All users already detached"
+msgstr ""
+
+#: classes/wp_user_sync.php:192
+msgid "Users detached successfully!"
+msgstr ""
+
+#: functions.php:93 functions.php:123
+msgid "second"
+msgstr ""
+
+#: functions.php:118
+msgid "years"
+msgstr ""
+
+#: functions.php:118
+msgid "year"
+msgstr ""
+
+#: functions.php:119
+msgid "months"
+msgstr ""
+
+#: functions.php:119
+msgid "month"
+msgstr ""
+
+#: functions.php:120
+msgid "days"
+msgstr ""
+
+#: functions.php:120
+msgid "day"
+msgstr ""
+
+#: functions.php:121
+msgid "hours"
+msgstr ""
+
+#: functions.php:121
+msgid "hour"
+msgstr ""
+
+#: functions.php:122
+msgid "minutes"
+msgstr ""
+
+#: functions.php:122
+msgid "minute"
+msgstr ""
+
+#: functions.php:123
+msgid "seconds"
+msgstr ""
+
+#: functions.php:204
+msgid "Subscriber"
+msgstr ""
+
+#: functions.php:205
+msgid "Contributor"
+msgstr ""
+
+#: functions.php:206
+msgid "Author"
+msgstr ""
+
+#: functions.php:207
+msgid "Editor"
+msgstr ""
+
+#: functions.php:208
+msgid "Administrator"
+msgstr ""
+
+#: functions.php:333 functions.php:372
+msgid "any logged user"
+msgstr ""
+
+#: functions.php:373
+msgid "unlogged users"
+msgstr ""
+
+#: lc_update_notifier.php:225
+msgid "The following premium plugins have new versions available"
+msgstr ""
+
+#: lc_update_notifier.php:244
+msgid "You have version"
+msgstr ""
+
+#: lc_update_notifier.php:244
+msgid "installed"
+msgstr ""
+
+#: login_widget.php:7
+msgid "Displays a login form for PrivateContent users"
+msgstr ""
+
+#: login_widget.php:8
+msgid "PrivateContent Login"
+msgstr ""
+
+#: login_widget.php:17
+msgid "Title"
+msgstr ""
+
+#: login_widget.php:46
+msgid "Welcome"
+msgstr "Benvenuto"
+
+#: login_widget.php:49
+msgid "Logout"
+msgstr "Logout"
+
+#: metaboxes.php:9 pc_taxonomies_option.php:82 pc_taxonomies_option.php:126
+msgid "PrivateContent Redirect"
+msgstr ""
+
+#: metaboxes.php:22
+msgid "Which user categories can see the page?"
+msgstr ""
+
+#: metaboxes.php:24 metaboxes.php:112 nav_menu_option.php:47
+#: pc_taxonomies_option.php:32 pc_taxonomies_option.php:49
+#: pc_taxonomies_option.php:85 pc_taxonomies_option.php:130
+#: tinymce_implementation.php:99 tinymce_implementation.php:158
+#: users/add_user.php:233 users/import_export.php:276 users/users_list.php:524
+msgid "Select categories"
+msgstr ""
+
+#: metaboxes.php:25 metaboxes.php:113 pc_taxonomies_option.php:33
+#: pc_taxonomies_option.php:50 pc_taxonomies_option.php:86
+#: pc_taxonomies_option.php:131 pc_taxonomies_option.php:268
+#: pc_taxonomies_option.php:292
+msgid "All"
+msgstr ""
+
+#: metaboxes.php:26 nav_menu_option.php:49 widgets_restriction.php:20
+msgid "Unlogged Users"
+msgstr ""
+
+#: metaboxes.php:37
+msgid "Where to move logged users?"
+msgstr ""
+
+#: metaboxes.php:39 metaboxes.php:127 settings.php:322 settings.php:362
+#: settings.php:758 settings.php:868 settings.php:1010 settings.php:1022
+#: tinymce_implementation.php:89 tinymce_implementation.php:135
+#: tinymce_implementation.php:148 users/import_export.php:251
+#: users/import_export.php:261
+msgid "Select an option"
+msgstr ""
+
+#: metaboxes.php:40
+msgid "Use main redirect target"
+msgstr ""
+
+#: metaboxes.php:73
+msgid "this category"
+msgstr ""
+
+#: metaboxes.php:73
+msgid "these categories"
+msgstr ""
+
+#: metaboxes.php:81
+msgid "this parent"
+msgstr ""
+
+#: metaboxes.php:81
+msgid "these parents"
+msgstr ""
+
+#: metaboxes.php:88
+msgid "Page already restricted by"
+msgstr ""
+
+#: metaboxes.php:93
+msgid "visible by"
+msgstr ""
+
+#: metaboxes.php:110
+msgid "Which user categories can see comments?"
+msgstr ""
+
+#: metaboxes.php:125
+msgid "Display warning box?"
+msgstr ""
+
+#: metaboxes.php:128
+msgid "as default"
+msgstr ""
+
+#: metaboxes.php:129
+msgid "yes"
+msgstr ""
+
+#: metaboxes.php:130
+msgid "no"
+msgstr ""
+
+#: metaboxes.php:260
+msgid "Which PrivateContent users can access?"
+msgstr ""
+
+#: metaboxes.php:260 pc_taxonomies_option.php:253
+msgid "PC Redirect"
+msgstr ""
+
+#: metaboxes.php:271
+msgid "Any user"
+msgstr ""
+
+#: metaboxes.php:272
+msgid "Unlogged"
+msgstr ""
+
+#: nav_menu_option.php:45 widgets_restriction.php:17
+msgid "Which PrivateContent user categories can see the page?"
+msgstr ""
+
+#: nav_menu_option.php:48 widgets_restriction.php:19
+msgid "Any logged user"
+msgstr ""
+
+#: pc_taxonomies_option.php:29
+msgid "PrivateContent Hide Post Contents"
+msgstr ""
+
+#: pc_taxonomies_option.php:30 pc_taxonomies_option.php:47
+msgid "Which user categories can see post contents?"
+msgstr ""
+
+#: pc_taxonomies_option.php:46
+msgid "<strong>PrivateContent Hide Post Contents"
+msgstr ""
+
+#: pc_taxonomies_option.php:83 pc_taxonomies_option.php:127
+msgid "Which user categories can see the contents?"
+msgstr ""
+
+#: pc_taxonomies_option.php:249
+msgid "PC Hide"
+msgstr ""
+
+#: private_content.php:207
+#, php-format
+msgid "# of % selected"
+msgstr ""
+
+#: private_content.php:207
+msgid "All selected"
+msgstr ""
+
+#: settings.php:24
+msgid "PrivateContent Settings"
+msgstr ""
+
+#: settings.php:43 settings.php:397
+msgid "Restriction redirect target"
+msgstr ""
+
+#: settings.php:44
+msgid "Redirect Page - Custom URL"
+msgstr ""
+
+#: settings.php:45
+msgid "Logged Users Redirect"
+msgstr ""
+
+#: settings.php:46
+msgid "Logged Users Redirect - Custom URL"
+msgstr ""
+
+#: settings.php:47
+msgid "Move logged users to last restricted page"
+msgstr ""
+
+#: settings.php:48
+msgid "Users Redirect after logout"
+msgstr ""
+
+#: settings.php:49
+msgid "Users Redirect after logout - Custom URL"
+msgstr ""
+
+#: settings.php:69
+msgid "Default registered user categories"
+msgstr ""
+
+#: settings.php:75
+msgid "Registered Users Redirect"
+msgstr ""
+
+#: settings.php:77 settings.php:794
+msgid "Disclaimer text"
+msgstr ""
+
+#: settings.php:78 settings.php:807
+msgid "Minimum password length"
+msgstr ""
+
+#: settings.php:85 settings.php:900
+msgid "Fields padding"
+msgstr ""
+
+#: settings.php:86 settings.php:909
+msgid "Fields border width"
+msgstr ""
+
+#: settings.php:87 settings.php:918
+msgid "Forms border radius"
+msgstr ""
+
+#: settings.php:88 settings.php:927
+msgid "Fields border radius"
+msgstr ""
+
+#: settings.php:89 settings.php:936
+msgid "Buttons border radius"
+msgstr ""
+
+#: settings.php:90
+msgid "Login form - labels font size"
+msgstr ""
+
+#: settings.php:91
+msgid "Registration form - labels font size"
+msgstr ""
+
+#: settings.php:93 settings.php:978
+msgid "Forms background color"
+msgstr ""
+
+#: settings.php:94 settings.php:988
+msgid "Forms border color"
+msgstr ""
+
+#: settings.php:95 settings.php:998
+msgid "Labels color"
+msgstr ""
+
+#: settings.php:98 settings.php:1033
+msgid "Fields background color"
+msgstr ""
+
+#: settings.php:99 settings.php:1043
+msgid "Fields border color"
+msgstr ""
+
+#: settings.php:100 settings.php:1053
+msgid "Fields text color"
+msgstr ""
+
+#: settings.php:101 settings.php:1063
+msgid "Fields background color - on hover"
+msgstr ""
+
+#: settings.php:102 settings.php:1073
+msgid "Fields border color - on hover"
+msgstr ""
+
+#: settings.php:103 settings.php:1083
+msgid "Fields text color - on hover"
+msgstr ""
+
+#: settings.php:104 settings.php:1094
+msgid "Buttons background color"
+msgstr ""
+
+#: settings.php:105 settings.php:1104
+msgid "Buttons border color"
+msgstr ""
+
+#: settings.php:106 settings.php:1114
+msgid "Buttons text color"
+msgstr ""
+
+#: settings.php:107 settings.php:1124
+msgid "Buttons background color - on hover"
+msgstr ""
+
+#: settings.php:108 settings.php:1134
+msgid "Buttons border color - on hover"
+msgstr ""
+
+#: settings.php:109 settings.php:1144
+msgid "Buttons text color - on hover"
+msgstr ""
+
+#: settings.php:113
+msgid "Unlogged user custom message"
+msgstr ""
+
+#: settings.php:114
+msgid "Wrong permissions custom message"
+msgstr ""
+
+#: settings.php:115
+msgid "Hidden comments custom message"
+msgstr ""
+
+#: settings.php:116
+msgid "Hidden comments - wrong permissions message"
+msgstr ""
+
+#: settings.php:117
+msgid "Disabled reserved area custom message"
+msgstr ""
+
+#: settings.php:118
+msgid "Successful login custom message"
+msgstr ""
+
+#: settings.php:119
+msgid "Pending user custom message"
+msgstr ""
+
+#: settings.php:120
+msgid "Successful registration custom message"
+msgstr ""
+
+#: settings.php:132
+msgid "Restriction redirect target / Custom URL"
+msgstr ""
+
+#: settings.php:132 settings.php:135 settings.php:138
+msgid "Insert a valid URL"
+msgstr ""
+
+#: settings.php:135 settings.php:138
+msgid "Logged Users Redirect / Custom URL"
+msgstr ""
+
+#: settings.php:178
+msgid ""
+"An error occurred during dynamic CSS creation. The code will be used inline "
+"anyway"
+msgstr ""
+
+#: settings.php:183
+msgid "Options saved"
+msgstr ""
+
+#: settings.php:291
+msgid "Main Options"
+msgstr ""
+
+#: settings.php:292 tinymce_implementation.php:50
+msgid "Registration"
+msgstr ""
+
+#: settings.php:293
+msgid "Styling"
+msgstr ""
+
+#: settings.php:294
+msgid "Messages"
+msgstr ""
+
+#: settings.php:302
+msgid "Users Private Page"
+msgstr ""
+
+#: settings.php:305
+msgid "Page to use as users private page container"
+msgstr ""
+
+#: settings.php:307 settings.php:399 settings.php:424 settings.php:469
+msgid "Select a page"
+msgstr ""
+
+#: settings.php:308
+msgid "no private page"
+msgstr ""
+
+#: settings.php:317
+msgid ""
+"The chosen page's content will be <strong>overwritten</strong> once an user "
+"will log in"
+msgstr ""
+
+#: settings.php:320
+msgid "Users private page content"
+msgstr ""
+
+#: settings.php:324
+msgid "Original content"
+msgstr ""
+
+#: settings.php:328
+msgid "Original content + login form"
+msgstr ""
+
+#: settings.php:332
+msgid "Login form + original content"
+msgstr ""
+
+#: settings.php:336
+msgid "Only login form"
+msgstr ""
+
+#: settings.php:340
+msgid "Content that will see non logged users"
+msgstr ""
+
+#: settings.php:343
+msgid "Default private page content for new users"
+msgstr ""
+
+#: settings.php:352
+msgid "Enable preset content?"
+msgstr ""
+
+#: settings.php:357
+msgid "If checked, display the preset content in pvt pages"
+msgstr ""
+
+#: settings.php:360
+msgid "Preset content position"
+msgstr ""
+
+#: settings.php:364
+msgid "Before the page content"
+msgstr ""
+
+#: settings.php:367
+msgid "After the page content"
+msgstr ""
+
+#: settings.php:371
+msgid "Set the preset content position in the pvt page"
+msgstr ""
+
+#: settings.php:374
+msgid "Preset content"
+msgstr ""
+
+#: settings.php:383
+msgid "Allow comments for WP synced users?"
+msgstr ""
+
+#: settings.php:388
+msgid ""
+"Gives the ability to communicate with user through comments in his private "
+"page"
+msgstr ""
+
+#: settings.php:389
+msgid "<strong>Note</strong>: only users with WP sync will be able to do this"
+msgstr ""
+
+#: settings.php:394
+msgid "Redirects"
+msgstr ""
+
+#: settings.php:400 settings.php:441 settings.php:471
+msgid "Custom redirect"
+msgstr ""
+
+#: settings.php:414
+msgid "Choose the page where users without permissions will be redirected"
+msgstr ""
+
+#: settings.php:422
+msgid "Redirect page after registration"
+msgstr ""
+
+#: settings.php:425 settings.php:440 settings.php:470
+msgid "Do not redirect users"
+msgstr ""
+
+#: settings.php:434
+msgid ""
+"Select the page where registered users will be redirected after registration"
+msgstr ""
+
+#: settings.php:437
+msgid "Redirect page after user login"
+msgstr ""
+
+#: settings.php:450
+msgid "Select page where users will be redirected after login"
+msgstr ""
+
+#: settings.php:458
+msgid "Redirect users to the last restricted page?"
+msgstr ""
+
+#: settings.php:463
+msgid ""
+"If checked, move logged users back to the last restricted page they tried to "
+"see (if available)"
+msgstr ""
+
+#: settings.php:467
+msgid "Redirect page after user logout"
+msgstr ""
+
+#: settings.php:480
+msgid "Select the page where users will be redirected after logout"
+msgstr ""
+
+#: settings.php:490
+msgid "Complete Site Lock"
+msgstr ""
+
+#: settings.php:493
+msgid "Enable lock?"
+msgstr ""
+
+#: settings.php:499
+msgid "If checked, website will be completely hidden for non logged users"
+msgstr ""
+
+#: settings.php:500
+msgid ""
+"<strong>Note</strong>: \"Restriction redirect target\" will be visible to "
+"allow the users login. Be sure you are using a Wordpress page"
+msgstr ""
+
+#: settings.php:506
+msgid "Custom Post types and Taxonomies"
+msgstr ""
+
+#: settings.php:510
+msgid "Enable restriction on these post types"
+msgstr ""
+
+#: settings.php:512
+msgid "Select the custom post types"
+msgstr ""
+
+#: settings.php:528
+msgid "Enable restriction on these taxonomies"
+msgstr ""
+
+#: settings.php:530
+msgid "Select the custom taxonomies"
+msgstr ""
+
+#: settings.php:544
+msgid "Wordpress user system integration"
+msgstr ""
+
+#: settings.php:547
+msgid "Enable integration?"
+msgstr ""
+
+#: settings.php:553
+msgid ""
+"If checked, privateContent users will be logged also with basic WP account"
+msgstr ""
+
+#: settings.php:554
+msgid ""
+"<strong>What does this implies?</strong> For more details, please check the "
+"related documentation chapter"
+msgstr ""
+
+#: settings.php:560
+msgid "Require sync during frontend registration?"
+msgstr ""
+
+#: settings.php:565
+msgid ""
+"Allow new users only if WP user sync is successful (automatically adds e-"
+"mail field into registration form)"
+msgstr ""
+
+#: settings.php:568
+msgid "Additional user roles"
+msgstr ""
+
+#: settings.php:570 settings.php:666 settings.php:680
+msgid "Select a role"
+msgstr ""
+
+#: settings.php:581
+msgid "Set which roles will be applied to synced users"
+msgstr ""
+
+#: settings.php:585
+msgid "Hide comments block in every page?"
+msgstr ""
+
+#: settings.php:590
+msgid "If checked, totally hides comment block on site for unlogged users"
+msgstr ""
+
+#: settings.php:593
+msgid "Display warning for hidden comment blocks?"
+msgstr ""
+
+#: settings.php:598
+msgid ""
+"If checked, shows a warning box replacing comment form (can be overrided for "
+"single posts)"
+msgstr ""
+
+#: settings.php:602
+msgid "Sync users"
+msgstr ""
+
+#: settings.php:605
+msgid "Only users with unique username and e-mail will be synced"
+msgstr ""
+
+#: settings.php:612
+msgid "Search existing matches and sync"
+msgstr ""
+
+#: settings.php:615
+msgid ""
+"Search matches between existing PrivateContent and WP users, and sync them"
+msgstr ""
+
+#: settings.php:621
+msgid "Clear sync"
+msgstr ""
+
+#: settings.php:624
+msgid "Detach previous sync and delete related WP users"
+msgstr ""
+
+#: settings.php:629
+msgid "Advanced"
+msgstr ""
+
+#: settings.php:632
+msgid "Enable \"testing\" mode?"
+msgstr ""
+
+#: settings.php:637
+msgid "If checked, WP users won't be able to see private contents"
+msgstr ""
+
+#: settings.php:640
+msgid "Use \"remember me\" check in login form?"
+msgstr ""
+
+#: settings.php:645
+msgid "If checked, allow users to keep logged into the website"
+msgstr ""
+
+#: settings.php:648
+msgid "Use first/last name in forms?"
+msgstr ""
+
+#: settings.php:653
+msgid "If checked, replaces name/surname with first/last name"
+msgstr ""
+
+#: settings.php:656
+msgid "Allow inline login within PrivateContent warings?"
+msgstr ""
+
+#: settings.php:661
+msgid "If checked, allow users to login from yellow warning boxes"
+msgstr ""
+
+#: settings.php:664
+msgid "Minimum role to use the plugin"
+msgstr ""
+
+#: settings.php:675
+msgid "Minimum WP role to use the plugin and see private contents"
+msgstr ""
+
+#: settings.php:678
+msgid "Minimum role to manage users"
+msgstr ""
+
+#: settings.php:690
+msgid "Minimum WP role to edit and manage users"
+msgstr ""
+
+#: settings.php:693
+msgid "Hide passwords in the admin panel?"
+msgstr ""
+
+#: settings.php:698
+msgid "If checked, passwords will be unreadable in the admin panel"
+msgstr ""
+
+#: settings.php:701
+msgid "Use custom CSS inline?"
+msgstr ""
+
+#: settings.php:707
+msgid "If checked, uses custom CSS inline (useful for multisite installations)"
+msgstr ""
+
+#: settings.php:715
+msgid "General registration settings"
+msgstr ""
+
+#: settings.php:718
+msgid "Allow duplicated e-mails?"
+msgstr ""
+
+#: settings.php:723
+msgid "Check if want to allow users with same e-mail into the database"
+msgstr ""
+
+#: settings.php:726
+msgid "Default category for registered users"
+msgstr ""
+
+#: settings.php:728 users/import_export.php:64
+msgid "Select a category"
+msgstr ""
+
+#: settings.php:738
+msgid ""
+"Default user registration categories (ingored if you use category field in "
+"forms)"
+msgstr ""
+
+#: settings.php:741
+msgid "\"Category\" field - custom label"
+msgstr ""
+
+#: settings.php:745
+msgid "Set a custom label for category field in registration forms"
+msgstr ""
+
+#: settings.php:748
+msgid "Allow multiple user categories selection during registration?"
+msgstr ""
+
+#: settings.php:753
+msgid "Check to allow users choose multiple categories in registration forms"
+msgstr ""
+
+#: settings.php:756
+msgid "Anti-spam system"
+msgstr ""
+
+#: settings.php:759
+msgid "Honey pot hidden system"
+msgstr ""
+
+#: settings.php:760
+msgid "reCAPTCHA validation"
+msgstr ""
+
+#: settings.php:763
+msgid "Choose the anti-spam solution you prefer"
+msgstr ""
+
+#: settings.php:766
+msgid "Set users status as pending after registration?"
+msgstr ""
+
+#: settings.php:774
+msgid "Enable private page for new registered users?"
+msgstr ""
+
+#: settings.php:783
+msgid "Disclaimer"
+msgstr ""
+
+#: settings.php:786
+msgid "Enable disclaimer?"
+msgstr ""
+
+#: settings.php:791
+msgid "If checked, append the disclaimer to the registration form"
+msgstr ""
+
+#: settings.php:804
+msgid "Password security settings"
+msgstr ""
+
+#: settings.php:812
+msgid "Set a minimum characters number for user passwords"
+msgstr ""
+
+#: settings.php:815
+msgid "Password strength options"
+msgstr ""
+
+#: settings.php:817
+msgid "select an option"
+msgstr ""
+
+#: settings.php:818
+msgid "use characters and digits"
+msgstr ""
+
+#: settings.php:819
+msgid "use uppercase characters"
+msgstr ""
+
+#: settings.php:820
+msgid "use symbols"
+msgstr ""
+
+#: settings.php:823
+msgid "Improve passwords strength with these options"
+msgstr ""
+
+#: settings.php:827
+msgid "Registration forms builder"
+msgstr ""
+
+#: settings.php:834
+msgid "Add"
+msgstr ""
+
+#: settings.php:837
+msgid "Select a form to edit"
+msgstr ""
+
+#: settings.php:850
+msgid "Save"
+msgstr ""
+
+#: settings.php:851 users/users_list.php:289 users/users_list.php:382
+msgid "Delete"
+msgstr ""
+
+#: settings.php:863
+msgid "General settings"
+msgstr ""
+
+#: settings.php:866
+msgid "Default forms layout"
+msgstr ""
+
+#: settings.php:869 tinymce_implementation.php:150
+msgid "Single column"
+msgstr ""
+
+#: settings.php:870 tinymce_implementation.php:151
+msgid "Fluid (multi column)"
+msgstr ""
+
+#: settings.php:873
+msgid "Select default layout for registration and User Data add-on forms"
+msgstr ""
+
+#: settings.php:876
+msgid "Frontend style"
+msgstr ""
+
+#: settings.php:878
+msgid "Select a style"
+msgstr ""
+
+#: settings.php:879
+msgid "Minimal"
+msgstr ""
+
+#: settings.php:880 settings.php:1012 settings.php:1023
+msgid "Light"
+msgstr ""
+
+#: settings.php:881 settings.php:1011 settings.php:1024
+msgid "Dark"
+msgstr ""
+
+#: settings.php:882
+msgid "Custom"
+msgstr ""
+
+#: settings.php:885
+msgid "Select the style that will be used for the frontend forms and boxes"
+msgstr ""
+
+#: settings.php:888
+msgid "Disable default frontend CSS?"
+msgstr ""
+
+#: settings.php:893
+msgid "If checked, prevents plugin CSS to be used"
+msgstr ""
+
+#: settings.php:897
+msgid "Elements layout"
+msgstr ""
+
+#: settings.php:946
+msgid "Typography"
+msgstr ""
+
+#: settings.php:949
+msgid "Login form labels - font size"
+msgstr ""
+
+#: settings.php:955
+msgid "Set login form labels size (default: 15px)"
+msgstr ""
+
+#: settings.php:958 settings.php:967
+msgid "Registration form labels - font size"
+msgstr ""
+
+#: settings.php:964
+msgid "Set registration form labels size (default: 15px)"
+msgstr ""
+
+#: settings.php:971
+msgid "Set forms font family (leave empty to use theme's one)"
+msgstr ""
+
+#: settings.php:975
+msgid "Colors"
+msgstr ""
+
+#: settings.php:1008
+msgid "reCAPTCHA icons color"
+msgstr ""
+
+#: settings.php:1020
+msgid "Datepicker theme"
+msgstr ""
+
+#: settings.php:1040
+msgid "Fields background color - default status"
+msgstr ""
+
+#: settings.php:1050
+msgid "Fields border color - default status"
+msgstr ""
+
+#: settings.php:1060
+msgid "Fields text color - default status"
+msgstr ""
+
+#: settings.php:1070
+msgid "Fields background color - hover status"
+msgstr ""
+
+#: settings.php:1080
+msgid "Fields border color - hover status"
+msgstr ""
+
+#: settings.php:1090
+msgid "Fields text color - hover status"
+msgstr ""
+
+#: settings.php:1101
+msgid "Buttons background color - default status"
+msgstr ""
+
+#: settings.php:1111
+msgid "Buttons border color - default status"
+msgstr ""
+
+#: settings.php:1121
+msgid "Buttons text color - default status"
+msgstr ""
+
+#: settings.php:1131
+msgid "Buttons background color - hover status"
+msgstr ""
+
+#: settings.php:1141
+msgid "Buttons border color - hover status"
+msgstr ""
+
+#: settings.php:1151
+msgid "Buttons text color - hover status"
+msgstr ""
+
+#: settings.php:1155
+msgid "Custom CSS"
+msgstr ""
+
+#: settings.php:1167
+msgid "Restricted Content Message"
+msgstr ""
+
+#: settings.php:1170
+msgid "Default message for unlogged users"
+msgstr ""
+
+#: settings.php:1173
+msgid "By default is \"You must be logged in to view this content\""
+msgstr ""
+
+#: settings.php:1177 settings.php:1195
+msgid "Custom message for wrong permission users"
+msgstr ""
+
+#: settings.php:1180
+msgid ""
+"By default is \"Sorry, you don't have the right permissions to view this "
+"content\""
+msgstr ""
+
+#: settings.php:1185
+msgid "Restricted comments message"
+msgstr ""
+
+#: settings.php:1188
+msgid "Custom message for unlogged users"
+msgstr ""
+
+#: settings.php:1191
+msgid "By default is \"You must be logged in to post comments\""
+msgstr ""
+
+#: settings.php:1198
+msgid ""
+"By default is \"Sorry, you don't have the right permissions to post comments"
+"\""
+msgstr ""
+
+#: settings.php:1203
+msgid "Private Page Messages"
+msgstr ""
+
+#: settings.php:1206
+msgid "Default message if a user not have the reserved area"
+msgstr ""
+
+#: settings.php:1209
+msgid "By default is \"You don't have a reserved area\""
+msgstr ""
+
+#: settings.php:1214
+msgid "Login Form Messages"
+msgstr ""
+
+#: settings.php:1217
+msgid "Default message for successful login"
+msgstr ""
+
+#: settings.php:1220
+msgid "By default is \"Logged successfully, welcome!\""
+msgstr ""
+
+#: settings.php:1224
+msgid "Default message for pending users"
+msgstr ""
+
+#: settings.php:1227
+msgid "By default is \"Sorry, your account has not been activated yet\""
+msgstr ""
+
+#: settings.php:1232
+msgid "Registration Form Message"
+msgstr ""
+
+#: settings.php:1235
+msgid "Default message for succesfully registered users"
+msgstr ""
+
+#: settings.php:1238
+msgid "By default is \"Registration was successful. Welcome!\""
+msgstr ""
+
+#: settings.php:1255
+msgid "Update Options"
+msgstr ""
+
+#: settings.php:1348
+msgid "Field already in the form"
+msgstr ""
+
+#: settings.php:1453
+msgid "At least one form is required"
+msgstr ""
+
+#: settings.php:1460
+msgid "Delete this form? Related shortcodes will show the first one"
+msgstr ""
+
+#: settings.php:1493
+msgid "Mirror wordpress users will be created. Continue?"
+msgstr ""
+
+#: settings.php:1512
+msgid ""
+"WARNING: this will delete connected wordpress users and any related content "
+"will be lost. Continue?"
+msgstr ""
+
+#: settings.php:1531
+msgid ""
+"WARNING: this will turn matched WP userse into PrivateContent mirrors. "
+"Continue?"
+msgstr ""
+
+#: shortcodes.php:75
+msgid "login"
+msgstr ""
+
+#: tinymce_implementation.php:49
+msgid "PrivateContent"
+msgstr ""
+
+#: tinymce_implementation.php:71
+msgid "Insert Login Form"
+msgstr ""
+
+#: tinymce_implementation.php:74
+msgid "Insert Logout Box"
+msgstr ""
+
+#: tinymce_implementation.php:84
+msgid "Private block"
+msgstr ""
+
+#: tinymce_implementation.php:90
+msgid "Content visible by one or more user categories"
+msgstr ""
+
+#: tinymce_implementation.php:91
+msgid "Content visible by all the categories"
+msgstr ""
+
+#: tinymce_implementation.php:92
+msgid "Content visible by unlogged users"
+msgstr ""
+
+#: tinymce_implementation.php:98
+msgid "Choose the user categories allowed to view the content"
+msgstr ""
+
+#: tinymce_implementation.php:110
+msgid "Hide warning box?"
+msgstr ""
+
+#: tinymce_implementation.php:119
+msgid "Custom message for not allowed users"
+msgstr ""
+
+#: tinymce_implementation.php:123
+msgid "Insert"
+msgstr ""
+
+#: tinymce_implementation.php:134
+msgid "Which form to use?"
+msgstr ""
+
+#: tinymce_implementation.php:147
+msgid "Layout"
+msgstr ""
+
+#: tinymce_implementation.php:149
+msgid "Default one"
+msgstr ""
+
+#: tinymce_implementation.php:157
+msgid "Custom categories assignment (ignored if field is in form)"
+msgstr ""
+
+#: tinymce_implementation.php:169
+msgid "Custom redirect (use a valid URL)"
+msgstr ""
+
+#: tinymce_implementation.php:173
+msgid "Insert form"
+msgstr ""
+
+#: user_categories.php:10
+msgid "User Category"
+msgstr ""
+
+#: user_categories.php:11
+msgid "Search User Categories"
+msgstr ""
+
+#: user_categories.php:12
+msgid "Popular User Categories"
+msgstr ""
+
+#: user_categories.php:13
+msgid "All User Categories"
+msgstr ""
+
+#: user_categories.php:14
+msgid "Parent User Category"
+msgstr ""
+
+#: user_categories.php:15
+msgid "Parent User Category:"
+msgstr ""
+
+#: user_categories.php:16
+msgid "Edit User Category"
+msgstr ""
+
+#: user_categories.php:17
+msgid "Update User Category"
+msgstr ""
+
+#: user_categories.php:18
+msgid "Add New User Category"
+msgstr ""
+
+#: user_categories.php:19
+msgid "New User Category Name"
+msgstr ""
+
+#: user_categories.php:20
+msgid "Separate user categories with commas"
+msgstr ""
+
+#: user_categories.php:21
+msgid "Add or remove user categories"
+msgstr ""
+
+#: user_categories.php:22
+msgid "Choose from the most used user categories"
+msgstr ""
+
+#: user_categories.php:74 user_categories.php:87
+msgid "Custom redirect after login"
+msgstr ""
+
+#: user_categories.php:75 user_categories.php:89
+msgid "Use a valid URL"
+msgstr ""
+
+#: user_categories.php:76 user_categories.php:90
+msgid "Set a custom login redirect for users belonging to this category"
+msgstr ""
+
+#: user_categories.php:79 user_categories.php:94
+msgid "Prevent this category to be used in registration form?"
+msgstr ""
+
+#: user_categories.php:81 user_categories.php:97
+msgid ""
+"If checked, hide the category from the registration form auto-selection "
+"dropdown"
+msgstr ""
+
+#: user_categories.php:137
+msgid "Login Redirect"
+msgstr ""
+
+#: user_categories.php:138
+msgid "No Registration"
+msgstr ""
+
+#: users/add_user.php:41 users/users_list.php:91
+msgid "User deleted"
+msgstr ""
+
+#: users/add_user.php:53 users/users_list.php:105
+msgid "User enabled"
+msgstr ""
+
+#: users/add_user.php:53 users/users_list.php:100
+msgid "User disabled"
+msgstr ""
+
+#: users/add_user.php:106
+msgid "WP sync error"
+msgstr ""
+
+#: users/add_user.php:107
+msgid "User saved"
+msgstr ""
+
+#: users/add_user.php:107
+msgid "User updated"
+msgstr ""
+
+#: users/add_user.php:135
+msgid "User does not exists"
+msgstr ""
+
+#: users/add_user.php:149
+msgid "Edit"
+msgstr ""
+
+#: users/add_user.php:149
+msgid "Add PrivateContent User"
+msgstr ""
+
+#: users/add_user.php:165
+msgid "User Data"
+msgstr ""
+
+#: users/add_user.php:172 users/users_list.php:38
+msgid "Username"
+msgstr "Username"
+
+#: users/add_user.php:178
+msgid "detach from WP sync to change username"
+msgstr ""
+
+#: users/add_user.php:186 users/users_list.php:50
+msgid "E-mail"
+msgstr "E-mail"
+
+#: users/add_user.php:193 users/users_list.php:42
+msgid "First name"
+msgstr ""
+
+#: users/add_user.php:193 users/users_list.php:42
+msgid "Name"
+msgstr "Nome"
+
+#: users/add_user.php:198 users/users_list.php:54
+msgid "Telephone"
+msgstr "Telefono"
+
+#: users/add_user.php:204 users/users_list.php:46
+msgid "Last name"
+msgstr ""
+
+#: users/add_user.php:204 users/users_list.php:46
+msgid "Surname"
+msgstr "Cognome"
+
+#: users/add_user.php:209
+msgid "Disable user private page"
+msgstr ""
+
+#: users/add_user.php:213
+msgid "edit page"
+msgstr ""
+
+#: users/add_user.php:218
+msgid "Update password"
+msgstr ""
+
+#: users/add_user.php:218
+msgid "Password"
+msgstr "Password"
+
+#: users/add_user.php:223 users/import_export.php:268 users/users_list.php:59
+msgid "Categories"
+msgstr ""
+
+#: users/add_user.php:229
+msgid "Create at least an user category"
+msgstr ""
+
+#: users/add_user.php:246
+msgid "Repeat password"
+msgstr ""
+
+#: users/add_user.php:255
+msgid "Update User"
+msgstr ""
+
+#: users/add_user.php:260
+msgid "status"
+msgstr ""
+
+#: users/add_user.php:267
+msgid "active"
+msgstr ""
+
+#: users/add_user.php:268 users/users_list.php:251
+msgid "disabled"
+msgstr ""
+
+#: users/add_user.php:269 users/users_list.php:256
+msgid "pending"
+msgstr ""
+
+#: users/add_user.php:270
+msgid "deleted"
+msgstr ""
+
+#: users/add_user.php:281
+msgid "enable user"
+msgstr ""
+
+#: users/add_user.php:285
+msgid "disable user"
+msgstr ""
+
+#: users/add_user.php:290
+msgid "delete user"
+msgstr ""
+
+#: users/add_user.php:305
+msgid "Wordpress user sync"
+msgstr ""
+
+#: users/add_user.php:311
+msgid "User cannot be sinced, e-mail is required"
+msgstr ""
+
+#: users/add_user.php:320
+msgid "User not synced"
+msgstr ""
+
+#: users/add_user.php:320
+msgid "sync"
+msgstr ""
+
+#: users/add_user.php:326
+msgid "User synced"
+msgstr ""
+
+#: users/add_user.php:326
+msgid "detach"
+msgstr ""
+
+#: users/add_user.php:353
+msgid "Do you really want to delete this user?"
+msgstr ""
+
+#: users/add_user.php:364
+msgid "A mirror wordpress user will be created. Continue?"
+msgstr ""
+
+#: users/add_user.php:375
+msgid "User synced successfully!"
+msgstr ""
+
+#: users/add_user.php:389
+msgid ""
+"WARNING: this will delete connected wordpres user and any related content "
+"will be lost. Continue?"
+msgstr ""
+
+#: users/add_user.php:400
+msgid "User detached successfully!"
+msgstr ""
+
+#: users/export_script.php:16 users/import_export.php:249
+msgid "Users type"
+msgstr ""
+
+#: users/export_script.php:17
+msgid "Export type"
+msgstr ""
+
+#: users/export_script.php:26
+msgid "Exported categories"
+msgstr ""
+
+#: users/export_script.php:26
+msgid "Choose at least one option"
+msgstr ""
+
+#: users/export_script.php:60 users/users_list.php:63
+msgid "Registered on"
+msgstr ""
+
+#: users/export_script.php:61 users/users_list.php:68
+msgid "Last access"
+msgstr ""
+
+#: users/export_script.php:66
+msgid "Status"
+msgstr ""
+
+#: users/import_export.php:26
+msgid "Import Users"
+msgstr ""
+
+#: users/import_export.php:29
+msgid ""
+"Your server doesn't give the permissions to manage files. Please enable the "
+"fopen() function"
+msgstr ""
+
+#: users/import_export.php:36
+msgid "Import Options"
+msgstr ""
+
+#: users/import_export.php:41 users/import_script.php:34
+#: users/import_script.php:37
+msgid "CSV file"
+msgstr ""
+
+#: users/import_export.php:43
+msgid "Select a valid CSV file containing users"
+msgstr ""
+
+#: users/import_export.php:46
+msgid "Fields Delimiter"
+msgstr ""
+
+#: users/import_export.php:51
+msgid "CSV fields delimiter (normally is \";\")"
+msgstr ""
+
+#: users/import_export.php:54
+msgid "Enable private page?"
+msgstr ""
+
+#: users/import_export.php:59
+msgid "If checked, enable private page for imported users"
+msgstr ""
+
+#: users/import_export.php:62
+msgid "Default category for imported users"
+msgstr ""
+
+#: users/import_export.php:76
+msgid "Choose category that will be assigned to imported users"
+msgstr ""
+
+#: users/import_export.php:79
+msgid "Ignore first row?"
+msgstr ""
+
+#: users/import_export.php:84
+msgid "If checked, ignore first CSV row (normally used for headings)"
+msgstr ""
+
+#: users/import_export.php:87
+msgid "Abort if errors are found?"
+msgstr ""
+
+#: users/import_export.php:92
+msgid "If checked, abort import process whether an error is found"
+msgstr ""
+
+#: users/import_export.php:95
+msgid "Abort if duplicated are found?"
+msgstr ""
+
+#: users/import_export.php:101
+msgid "or e-mail"
+msgstr ""
+
+#: users/import_export.php:102
+msgid "If checked, abort import process whether a duplicated username"
+msgstr ""
+
+#: users/import_export.php:102
+msgid "is found"
+msgstr ""
+
+#: users/import_export.php:111
+msgid "Abort if wordpress sync fails?"
+msgstr ""
+
+#: users/import_export.php:116
+msgid "If checked, abort import process whether a mirrored user already exists"
+msgstr ""
+
+#: users/import_export.php:139
+msgid "Custom fields import"
+msgstr ""
+
+#: users/import_export.php:140
+msgid "add field"
+msgstr ""
+
+#: users/import_export.php:153 users/import_export.php:197
+msgid "column"
+msgstr ""
+
+#: users/import_export.php:155 users/import_export.php:181
+msgid "Select field"
+msgstr ""
+
+#: users/import_export.php:226
+msgid "Import"
+msgstr ""
+
+#: users/import_export.php:239
+msgid "Export Users"
+msgstr ""
+
+#: users/import_export.php:244
+msgid "Choose what to export"
+msgstr ""
+
+#: users/import_export.php:252
+msgid "Any"
+msgstr ""
+
+#: users/import_export.php:253
+msgid "Only actives"
+msgstr ""
+
+#: users/import_export.php:254
+msgid "Only disabled"
+msgstr ""
+
+#: users/import_export.php:259
+msgid "Export as"
+msgstr ""
+
+#: users/import_export.php:262
+msgid "Excel"
+msgstr ""
+
+#: users/import_export.php:270
+msgid "Export all?"
+msgstr ""
+
+#: users/import_export.php:290
+msgid "Export"
+msgstr ""
+
+#: users/import_script.php:20
+msgid "Field Delimiter"
+msgstr ""
+
+#: users/import_script.php:22
+msgid "Category"
+msgstr "Categoria"
+
+#: users/import_script.php:34
+msgid "is missing"
+msgstr ""
+
+#: users/import_script.php:37
+msgid "invalid file uploaded"
+msgstr ""
+
+#: users/import_script.php:63
+msgid "Row "
+msgstr ""
+
+#: users/import_script.php:126
+msgid "Missing values have been found in rows"
+msgstr ""
+
+#: users/import_script.php:129
+msgid "Users with existing username have been found at rows"
+msgstr ""
+
+#: users/import_script.php:132
+msgid "Users with existing e-mail have been found at rows"
+msgstr ""
+
+#: users/import_script.php:135
+msgid "Wordpress mirror users already existat rows"
+msgstr ""
+
+#: users/import_script.php:146
+msgid "Error importing user \""
+msgstr ""
+
+#: users/import_script.php:159
+msgid "Import completed succesfully"
+msgstr ""
+
+#: users/import_script.php:163
+msgid "Missing values"
+msgstr ""
+
+#: users/import_script.php:163 users/import_script.php:167
+#: users/import_script.php:171 users/import_script.php:175
+msgid "at rows"
+msgstr ""
+
+#: users/import_script.php:167
+msgid "existing users"
+msgstr ""
+
+#: users/import_script.php:171
+msgid "duplicated e-mails"
+msgstr ""
+
+#: users/import_script.php:175
+msgid "existing WP mirror users"
+msgstr ""
+
+#: users/import_script.php:187
+msgid "Temporary file cannot be read"
+msgstr ""
+
+#: users/users_list.php:233
+msgid "PrivateContent Users"
+msgstr ""
+
+#: users/users_list.php:234 users_page_post_type.php:83
+msgid "Add New"
+msgstr ""
+
+#: users/users_list.php:246
+msgid "actives"
+msgstr ""
+
+#: users/users_list.php:281
+msgid "Bulk Actions"
+msgstr ""
+
+#: users/users_list.php:284 users/users_list.php:389
+msgid "Enable"
+msgstr ""
+
+#: users/users_list.php:284 users/users_list.php:286 users/users_list.php:289
+msgid "Users"
+msgstr ""
+
+#: users/users_list.php:286 users/users_list.php:399
+msgid "Disable"
+msgstr ""
+
+#: users/users_list.php:292
+msgid "Change categories"
+msgstr ""
+
+#: users/users_list.php:295
+msgid "Apply"
+msgstr ""
+
+#: users/users_list.php:299 users/users_list.php:514
+msgid "Search"
+msgstr ""
+
+#: users/users_list.php:300
+msgid "username, name, surname, e-mail"
+msgstr ""
+
+#: users/users_list.php:303
+msgid "All Categories"
+msgstr ""
+
+#: users/users_list.php:312
+msgid "Clean advanced search"
+msgstr ""
+
+#: users/users_list.php:316
+msgid "Filter"
+msgstr ""
+
+#: users/users_list.php:319
+msgid "Advanced search"
+msgstr ""
+
+#: users/users_list.php:394
+msgid "Activate"
+msgstr ""
+
+#: users/users_list.php:409
+msgid "Edit user page"
+msgstr ""
+
+#: users/users_list.php:422
+msgid "Synced with WP user"
+msgstr ""
+
+#: users/users_list.php:430
+msgid "edit user"
+msgstr ""
+
+#: users/users_list.php:461
+msgid "Conditions matching"
+msgstr ""
+
+#: users/users_list.php:464
+msgid "at least one must match"
+msgstr ""
+
+#: users/users_list.php:465
+msgid "every condition must match"
+msgstr ""
+
+#: users/users_list.php:482
+msgid "Add condition"
+msgstr ""
+
+#: users/users_list.php:495 users/users_list.php:631
+msgid "remove condition"
+msgstr ""
+
+#: users/users_list.php:500 users/users_list.php:636
+msgid "is equal to"
+msgstr ""
+
+#: users/users_list.php:501 users/users_list.php:637
+msgid "is different from"
+msgstr ""
+
+#: users/users_list.php:502 users/users_list.php:638
+msgid "is greater than"
+msgstr ""
+
+#: users/users_list.php:503 users/users_list.php:639
+msgid "is lower than"
+msgstr ""
+
+#: users/users_list.php:504 users/users_list.php:640
+msgid "contains"
+msgstr ""
+
+#: users/users_list.php:532
+msgid "Set"
+msgstr ""
+
+#: users/users_list.php:554
+msgid "Existing user categories will be overwritten. Continue?"
+msgstr ""
+
+#: users/users_list.php:569
+msgid "Done"
+msgstr ""
+
+#: users/users_list.php:585
+msgid "insert a value for each condition"
+msgstr ""
+
+#: users/users_list.php:607
+msgid "Remove condition?"
+msgstr ""
+
+#: users/users_list.php:626
+msgid "Field already used"
+msgstr ""
+
+#: users/users_list.php:747
+msgid "Do you really want to delete these users?"
+msgstr ""
+
+#: users/users_list.php:786
+msgid "Do you really want to delete "
+msgstr ""
+
+#: users_page_post_type.php:81 users_page_post_type.php:92
+msgid "User Pages"
+msgstr ""
+
+#: users_page_post_type.php:82
+msgid "User Page"
+msgstr ""
+
+#: users_page_post_type.php:84
+msgid "Add New User Page"
+msgstr ""
+
+#: users_page_post_type.php:85
+msgid "Edit User Page"
+msgstr ""
+
+#: users_page_post_type.php:86
+msgid "New User Page"
+msgstr ""
+
+#: users_page_post_type.php:87
+msgid "View User Page"
+msgstr ""
+
+#: users_page_post_type.php:88
+msgid "Search User Pages"
+msgstr ""
+
+#: users_page_post_type.php:89
+msgid "No user pages found"
+msgstr ""
+
+#: users_page_post_type.php:90
+msgid "No user pages found in Trash"
+msgstr ""
+
+#: users_page_post_type.php:91
+msgid "Parent User Page:"
+msgstr ""
+
+#: users_page_post_type.php:205
+msgid "Live preview"
+msgstr ""
+
+#: widgets_restriction.php:18
+msgid "select a category"
+msgstr ""
+
+#~ msgid "minimum value is"
+#~ msgstr "il valore minimo è"
+
+#~ msgid "maximum value is"
+#~ msgstr "il valore massimo è"
+
+#~ msgid "characters"
+#~ msgstr "caratteri"
+
+#~ msgid "maximum"
+#~ msgstr "massimo"
+
+#~ msgid "characters allowed"
+#~ msgstr "caratteri consentiti"
+
+#, fuzzy
+#~ msgid "must be long"
+#~ msgstr "deve essere lungo"
+
+#~ msgid "Select"
+#~ msgstr "Seleziona"
+
+#~ msgid "options"
+#~ msgstr "opzioni"
+
+#~ msgid "Maximum"
+#~ msgstr "Massimo"
+
+#~ msgid "options allowed"
+#~ msgstr "opzioni consentite"
+
+#~ msgid "are required"
+#~ msgstr "sono richiesti"
+
+#~ msgid "is required"
+#~ msgstr "è richiesto"
+
+#~ msgid "are not valid integers"
+#~ msgstr "non sono numeri interi"
+
+#~ msgid "is not a valid integer"
+#~ msgstr "non è un numero intero"
+
+#~ msgid "are not valid floating numbers"
+#~ msgstr "non sono validi numeri a virgola mobile"
+
+#~ msgid "is not a valid floating number"
+#~ msgstr "non è un valido numero a virgola mobile"
+
+#~ msgid "are not valid e-mail addresses"
+#~ msgstr "non sono indirizzi e-mail validi"
+
+#~ msgid "is not a valid e-mail address"
+#~ msgstr "non è un indrizzo e-mail valido"
+
+#~ msgid "are not valid dates"
+#~ msgstr "non sono date valide"
+
+#~ msgid "is not a valid date"
+#~ msgstr "non è una data valida"
+
+#~ msgid "are not valid times"
+#~ msgstr "non sono orari validi"
+
+#~ msgid "is not a valid time"
+#~ msgstr "non è un orario valido"
+
+#~ msgid "are not valid urls"
+#~ msgstr "non sono url validi"
+
+#~ msgid "is not a valid url"
+#~ msgstr "non è un url valido"
+
+#~ msgid "are not valid hexadecimal colors"
+#~ msgstr "non sono colori esadecimali validi"
+
+#~ msgid "is not a valid hexadecimal color"
+#~ msgstr "non è un colore esadecimale valido"
+
+#~ msgid "are not valid IP addresses"
+#~ msgstr "non sono indirizzi IP validi"
+
+#~ msgid "is not a valid IP address"
+#~ msgstr "non è un indirizzo IP valido"
+
+#~ msgid "are not valid ZIP codes"
+#~ msgstr "are not valid ZIP codes"
+
+#~ msgid "is not a valid ZIP code"
+#~ msgstr "is not a valid ZIP code"
+
+#~ msgid "are not valid telephone numbers"
+#~ msgstr "non sono numeri di telefono validi"
+
+#~ msgid "is not a valid telephone number"
+#~ msgstr "non è un numero di telefono valido"
+
+#~ msgid "invalid data inserted"
+#~ msgstr "dati non validi inseriti"
+
+#~ msgid "values are not between the allowed"
+#~ msgstr "i valori non sono tra quelli consentiti"
+
+#~ msgid "value is not between the allowed"
+#~ msgstr "il valore non è tra quelli consentiti"
+
+#~ msgid "values are between the forbidden"
+#~ msgstr "i valori sono tra i non ammessi"
+
+#~ msgid "values is between the forbidden"
+#~ msgstr "il valore è tra i non ammessi"
+
+#~ msgid "the value doesn't match"
+#~ msgstr "il valore non corrisponde"
+
+#~ msgid "file size is wrong"
+#~ msgstr "la dimensione del file è errata"
+
+#, fuzzy
+#~ msgid "User name"
+#~ msgstr "Username"
+
+#, fuzzy
+#~ msgid "User Surname"
+#~ msgstr "Username"
+
+#~ msgid "E-Mail"
+#~ msgstr "E-Mail"
+
+#, fuzzy
+#~ msgid "User E-mail"
+#~ msgstr "E-mail"
+
+#, fuzzy
+#~ msgid "User Telephone"
+#~ msgstr "Telefono"
+
+#~ msgid "Repeat"
+#~ msgstr "Ripeti"
+
+#, fuzzy
+#~ msgid "characters and digits"
+#~ msgstr "caratteri consentiti"
+
+#~ msgid "You don't have a reserved area"
+#~ msgstr "Non disponi di area riservata"
+
+#, fuzzy
+#~ msgid "Fields Order"
+#~ msgstr "è richiesto"
+
+#, fuzzy
+#~ msgid "Message if haven't reserved area"
+#~ msgstr "Non disponi di area riservata"
+
+#, fuzzy
+#~ msgid "Enable the private page for new registered users?"
+#~ msgstr "Devi impostare la categoria di default per gli utenti registrati"
+
+#, fuzzy
+#~ msgid "By default is \"Logged succesfully, welcome!\""
+#~ msgstr "Login effettuato, benvenuto!"
+
+#, fuzzy
+#~ msgid "By default is \"Registration was succesful. Welcome!\""
+#~ msgstr "Registrazione effettuata. Benvenuto!"
+
+#~ msgid "wasn't entered correctly"
+#~ msgstr "non è stato inserito correttamente"
+
+#~ msgid "Another user already has this username"
+#~ msgstr "Questo username è già utilizzato da un altro utente"
+
+#, fuzzy
+#~ msgid "Invalid Category"
+#~ msgstr "Categoria"
+
+#~ msgid "Error during user registration, contact the website administrator"
+#~ msgstr ""
+#~ "Errore durante la registrazione, contattare l'amministratore del sito"
+
+#~ msgid "Registration was succesful. Welcome!"
+#~ msgstr "Registrazione effettuata. Benvenuto!"
+
+#, fuzzy
+#~ msgid "Last Login"
+#~ msgstr "Login"
+
+#~ msgid "Sorry, your account has not been activated yet"
+#~ msgstr "Il tuo account non è ancora stato attivato"
+
+#, fuzzy
+#~ msgid "Sorry, your account has been disabled"
+#~ msgstr "Il tuo account non è ancora stato attivato"
+
+#~ msgid "Submit"
+#~ msgstr "Invia"
+
+#~ msgid "You must be logged in to view this content"
+#~ msgstr "Devi essere loggato per visualizzare questo contenuto"
+
+#~ msgid "Sorry, you don't have the right permissions to view this content"
+#~ msgstr "Non hai i permessi per visualizzare questo contenuto"
+
+#, fuzzy
+#~ msgid "You have to set the default category for registered users"
+#~ msgstr "Devi impostare la categoria di default per gli utenti registrati"
+
+#, fuzzy
+#~ msgid "Hide passwords"
+#~ msgstr "Password"
+
+#, fuzzy
+#~ msgid "Disable reCAPTCHA"
+#~ msgstr "reCAPTCHA"
+
+#~ msgid "Username or password incorrect"
+#~ msgstr "Username o password errate"
+
+#~ msgid "minimum"
+#~ msgstr "minimo"
+
+#, fuzzy
+#~ msgid "Form submitted successfully. In this demo no data could be saved"
+#~ msgstr ""
+#~ "Form inviato con successo. Non sei loggato come utente quindi nessun dato "
+#~ "è stato salvato"
+
+#, fuzzy
+#~ msgid ""
+#~ "Form submitted successfully. You are not logged as an user so nothing has "
+#~ "been saved"
+#~ msgstr ""
+#~ "Form inviato con successo. Non sei loggato come utente quindi nessun dato "
+#~ "è stato salvato"
+
+#~ msgid "%SITE-TITLE% - Welcome!"
+#~ msgstr "%SITE-TITLE% - Benvenuto!"
+
+#~ msgid ""
+#~ "Hello %USERNAME%,\n"
+#~ "thanks for registering on %SITE-TITLE%. \n"
+#~ "\n"
+#~ "To activate your account, click the following link:\n"
+#~ "%VER-URL%\n"
+#~ "\n"
+#~ "Best Regards,\n"
+#~ "%SITE-TITLE% Staff"
+#~ msgstr ""
+#~ "Ciao %USERNAME%,\n"
+#~ "grazie per esserti registrato su %SITE-TITLE%. \n"
+#~ "\n"
+#~ "Per attivare il tuo account, click sul link seguente:\n"
+#~ "%VER-URL%\n"
+#~ "\n"
+#~ "Cordiali Saluti,\n"
+#~ "%SITE-TITLE% Staff"
+
+#~ msgid "%SITE-TITLE% - New registered user"
+#~ msgstr "%SITE-TITLE% - Nuovo utente registrato"
+
+#~ msgid ""
+#~ "Hello,\n"
+#~ "A new user has registered.\n"
+#~ "\n"
+#~ "Fullname: %NAME% %SURNAME%\n"
+#~ "Username: %USERNAME%\n"
+#~ "E-mail: %MAIL%\n"
+#~ "Telephone: %TEL%"
+#~ msgstr ""
+#~ "Buongiorno,\n"
+#~ "Un nuovo utente si è registrato.\n"
+#~ "\n"
+#~ "Nome compleo: %NAME% %SURNAME%\n"
+#~ "Username: %USERNAME%\n"
+#~ "E-mail: %MAIL%\n"
+#~ "Telefono: %TEL%"
+
+#~ msgid "%SITE-TITLE% - Account activated!"
+#~ msgstr "%SITE-TITLE% - Account Attivato!"
+
+#~ msgid ""
+#~ "Hello %USERNAME%,\n"
+#~ "your account has been activated, now you can login into our website!\n"
+#~ "\n"
+#~ "Best Regards,\n"
+#~ "%SITE-TITLE% Staff"
+#~ msgstr ""
+#~ "Ciao %USERNAME%,\n"
+#~ "il tuo account è stato attivato, ora puoi effettuare il login!\n"
+#~ "\n"
+#~ "Cordiali Saluti,\n"
+#~ "%SITE-TITLE% Staff"
+
+#~ msgid "%SITE-TITLE% - Password recovery"
+#~ msgstr "%SITE-TITLE% - Recupero Password"
+
+#~ msgid ""
+#~ "Hello %USERNAME%,\n"
+#~ "a password recovery has been requested for your account.\n"
+#~ "\n"
+#~ "This is your password: %PSW%\n"
+#~ "\n"
+#~ "Best Regards,\n"
+#~ "%SITE-TITLE% Staff"
+#~ msgstr ""
+#~ "Ciao %USERNAME%,\n"
+#~ "una richiesta di recupero password è stata inviata per il tuo account.\n"
+#~ "\n"
+#~ "Questa è la tua password: %PSW%\n"
+#~ "\n"
+#~ "Cordiali Saluti,\n"
+#~ "%SITE-TITLE% Staff"
+
+#~ msgid "Your account doesn't have an e-mail"
+#~ msgstr "Il tuo account non ha una e-mail"
+
+#~ msgid "Error sending the e-mail"
+#~ msgstr "Errore durante l'invio dell'e-mail"
+
+#~ msgid "The password has been sent to your e-mail"
+#~ msgstr "La password ti è stata inviata via e-mail"
+
+#~ msgid "Forgot password?"
+#~ msgstr "Password dimenticata?"
+
+#~ msgid "Recover"
+#~ msgstr "Recupera"
+
+#~ msgid "Account succesfully verified via e-mail"
+#~ msgstr "Account verificato via E-mail"
+
+#~ msgid "cancel verification"
+#~ msgstr "Cancella verifica"
+
+#~ msgid "Account not verified yet"
+#~ msgstr "Account non ancora verificato"
+
+#~ msgid "Sorry, your request is invalid or your account has been deleted"
+#~ msgstr "La richiesta non è valida o il tuo account è stato cancellato"
+
+#~ msgid "Your account has been already activated!"
+#~ msgstr "Il tuo account è già stato attivato!"
+
+#~ msgid "Your account has been activated succesfully!"
+#~ msgstr "Il tuo account è stato attivato!"

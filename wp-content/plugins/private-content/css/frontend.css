@@ -1,0 +1,708 @@
+/*********************************
+ COMMON RULES
+ ********************************/
+
+.pc_login_form, .pc_login_form *,
+.pc_registration_form, .pc_registration_form *,
+.pc_custom_form, .pc_custom_form *, 
+.pc_logout_box, .pc_logout_box * {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;	
+	text-align: left;
+}
+
+/* containers style */
+.pc_registration_form,
+.pc_login_form,
+.pc_custom_form {
+	display: block;
+    margin: 0 auto 20px;
+    padding: 18px 23px;
+}
+.pc_registration_form,
+.pc_custom_form {
+	margin-top: 15px;	
+}
+
+/* fields style */
+.pc_rf_field input, .pc_rf_field select, .pc_rf_field textarea,
+.pc_login_row input, .pcma_psw_username,
+.pc_multiselect .ms-choice {
+	display: block !important;
+	min-width: none;
+	max-width: none;
+	margin: 0 ;
+	font-size: 14px !important;
+	line-height: 20px !important;
+	height: auto !important;
+	
+	-webkit-transition: all .15s ease-in-out; 
+	-ms-transition: 	all .15s ease-in-out; 
+	transition: 		all .15s ease-in-out;
+}
+
+/* text blocks */
+.pc_form_txt_block {
+	min-width: 100%;	
+}
+
+
+/* submit buttons */
+.pc_login_form input[type="button"], 
+.PrivateContentLogin input[type="button"], 
+.pc_registration_form input[type="button"],
+.pc_custom_form input[type="button"],
+.pc_logout_btn {
+	cursor: pointer;
+	font-size: 13px;
+    padding: 0 12px !important;
+	height: 31px !important;
+    line-height: 26px !important;
+	
+	-webkit-transition: all .2s ease-in-out; 
+	-ms-transition: 	all .2s ease-in-out; 
+	transition: 		all .2s ease-in-out;
+}
+
+/* loading status */
+.pc_loading_btn {
+	opacity: 0.65;
+	filter: alpha(opacity=65);
+}
+
+  
+/*********************************
+ STANDARD LOGIN FORM ELEMENTS
+ ********************************/
+
+/*** inline restriction message ***/
+/* container */
+.pc_login_block {
+    margin: 20px 0;
+}
+.pc_login_block.pc_comment_hide {
+	max-width: 850px;
+	margin: 30px auto 45px;	
+}
+ 
+/* container message */
+.pc_login_block p {
+    padding: 5px 10px;
+    margin: 0;
+	color: #505050;
+    background-color: #FDFFDD;
+    border: 1px solid #ddd;
+    border: 1px solid #EEE78A;
+}
+/**********/
+  
+.pc_login_form {
+    max-width: 315px;
+    margin : 0 auto 20px;   
+}
+.pc_clear {
+	border: none !important;
+	clear: both !important;
+	margin: 0 !important;
+	padding: 0 !important;	
+	background: none !important;
+	opacity: 0 !important;
+	filter: alpha(opacity=0) !important;
+	line-height: 0 !important;
+	float: none !important;
+}
+.pc_login_row {
+	vertical-align: top;
+	margin-bottom: 11px;
+	position: relative;		
+}
+.pc_login_row label {
+    display: inline-block;
+	font-size: 15px;
+	line-height: 20px;
+    width: 36% !important;
+	padding: 0 !important;
+	margin: 0 !important;
+	word-break: break-all;
+}
+.pc_login_row input {
+	display: inline-block;
+    width: 62% !important;
+	margin: 0 0 0 2% !important;
+	float: right;
+}
+.pc_login_smalls {
+	height: 22px;
+    margin-bottom: 3px;
+    padding-top: 5px;
+    text-align: right;
+}
+.pc_login_form .pc_auth_btn {
+	float: left;
+    margin-top: -22px;	
+}
+.pc_vcl .pc_login_row label {
+	position: absolute;
+	top: 50%;
+	
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+/* button */
+.pc_login_form .pc_auth_btn,
+.pc_login_form .pcma_do_recovery {
+	display: inline-block;	
+}
+
+/* remember me check */
+.pc_login_remember_me {
+	display: inline-block;	
+}
+.pc_login_remember_me input {
+	display: inline !important;
+	position: relative;
+	bottom: -2px;
+	margin: 0;
+}
+.pc_login_remember_me small {
+	position: relative;
+	font-size: 11px;
+	top: -1px;	
+	padding-left: 5px;
+}
+
+/* widget version */
+.PrivateContentLogin .pc_login_form {
+	padding: 0;
+	margin: 0;
+	background: none !important;
+	border: none;
+	box-shadow: none;	
+}
+.PrivateContentLogin .pc_login_row label {
+	width: 100% !important;	
+	padding-bottom: 1px !important;
+	position: static !important;
+	top: 0;
+	
+	-webkit-transform: translateY(0);
+	-ms-transform: translateY(0);
+	transform: translateY(0);
+}
+.PrivateContentLogin .pc_login_row input {
+	margin: 0 !important;	
+	width: 100% !important;
+}
+
+/* if smalls are too large and for widget */
+.PrivateContentLogin .pc_login_smalls,
+.pc_mobile_login .pc_login_smalls {
+	padding-top: 0;
+	text-align: left;
+	height: auto;
+}
+.PrivateContentLogin .pc_auth_btn,
+.pc_mobile_login .pc_auth_btn {
+	float: none;
+	margin-top: 10px;	
+}
+
+/* trick for long labels */
+.pc_lf_long_labels .pc_login_row label {
+	min-width: 100%;
+	position: static;
+		
+	-webkit-transform: translateY(0) !important;
+	-ms-transform: translateY(0) !important;
+	transform: translateY(0) !important;	
+}
+.pc_lf_long_labels .pc_login_row input {
+	min-width: 100%;
+	float: none;
+	margin: 0 !important;
+}
+
+
+/* responsive behavior */
+@media screen and (max-width:440px) { 
+	.pc_login_row label {
+		width: 100% !important;	
+		padding-bottom: 1px !important;
+		
+		position: static !important;
+		top: 0 !important;
+		
+		-webkit-transform: translateY(0) !important;
+		-ms-transform: translateY(0) !important;
+		transform: translateY(0) !important;
+	}
+	.pc_login_row input {
+		margin: 0 !important;	
+		width: 100% !important;
+	}
+}
+
+ 
+ 
+/*********************************
+ LOGOUT BOX
+ ********************************/
+
+.pc_logout_box {
+	display: inline-block;	
+	background: none;
+	border: none;
+}
+.pc_logout_box .pc_loading {
+	position: relative;
+	margin-bottom: -5px;
+    margin-left: 3px;
+}
+
+
+/************************************************
+ REGISTRATION AND CUSTOM FORM ELEMENTS
+ ***********************************************/
+
+.pc_req_field {
+	color: #F30;	
+}
+.pc_form_flist {
+	list-style: none !important;
+	margin: 0 !important;
+	padding: 0 !important;	
+	clear: both;
+}
+.pc_form_flist > li {
+	margin: 0 0 15px 0 !important;
+	list-style: none !important;
+	background: none !important;
+	vertical-align: top;
+}
+.pc_form_flist > li.pc_rf_disclaimer:not(:last-child) {
+	margin-bottom: 3px !important;		
+}
+	
+.pc_form_flist > li:before, 
+.pc_form_flist > li:after {
+	display: none !important;	
+}
+.pc_form_flist > li > label {
+	font-size: 15px;
+	line-height: 20px;
+}
+.pc_check_wrap .pc_check_label {
+	display: table-cell !important;
+	width: 100% !important;	
+	margin: 0 !important;
+	padding: 0 0 0 5px !important;
+}
+.pc_check_wrap input {
+	display: table-cell !important;
+	vertical-align: top;
+	margin: 6px 4px 0 3px !important;	
+	float: left !important;
+}
+.pc_form_flist textarea {
+	min-height: 65px;
+	width: 100%;
+}
+#pc_reg_message {
+	margin-bottom: 3px;	
+}
+
+
+/*** MULTI-SELECT - customize JS plugin aspect ***/
+.pc_multiselect select {
+	display: none !important;	
+}
+.pc_multiselect .ms-parent {
+	min-width: 100%;	
+}
+.pc_multiselect .ms-choice {
+	background: #fff;	
+}
+.pc_multiselect .ms-choice span {
+	position: relative;
+	height: 100%;
+	line-height: 20px;
+	min-height: 20px;
+	padding: 0;
+}
+.pc_multiselect .ms-choice > div {
+	float: right;
+	position: relative;
+	height: 100%;	
+	width: 13px;
+	background: none !important;
+}
+.pc_multiselect .ms-choice > div:before {
+	position: absolute;
+	top: 50%;
+	margin-top: -12px;
+	content: "";	
+	width: 0; 
+	height: 0; 
+	border-left: 4px solid transparent;
+	border-right: 4px solid transparent;
+	border-top: 4px solid #888;
+}
+.pc_multiselect .ms-choice > div.open:before {
+	border-bottom: 4px solid #888;
+	border-top: none;
+}
+.pc_multiselect .ms-drop {
+	box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.1);
+}
+.pc_multiselect .ms-choice,
+.pc_multiselect .ms-drop {
+	border-radius: 0;
+}
+.pc_multiselect .ms-drop,
+.pc_multiselect .ms-drop ul {
+	padding: 0 !important; 	
+}
+.pc_multiselect .ms-drop input {
+	display: none !important;	
+}
+.pc_multiselect .ms-drop li {
+	border-bottom: 1px solid #aaa;	
+	cursor: pointer;
+}
+.pc_multiselect .ms-drop li:nth-last-child(2) {
+	border-bottom: none !important;
+}
+.pc_multiselect .ms-drop label {
+	font-size: 14px;
+    padding: 3px 7px;
+	cursor: pointer;
+}
+.pc_multiselect .ms-drop li.selected label {
+	opacity: 0.55;	
+}
+
+
+
+/**** ONE COLUMN LAYOUT ****/
+/* form wrapper style */
+.pc_one_col_form.pc_registration_form,
+.pc_one_col_form.pc_custom_form {
+    max-width: 425px;
+}
+.pc_one_col_form .pc_form_flist > li {
+	padding: 0 !important;
+	width: 100% !important;
+	position: relative;
+}
+.pc_one_col_form .pc_form_flist > li.pc_rf_field {
+	height: auto;
+}
+.pc_one_col_form .pc_form_flist > li > label {
+	display: inline-block !important;
+	padding: 0 !important;
+	margin: 0 !important;
+	width: 45%;
+}
+.pc_vcl .pc_one_col_form .pc_form_flist > li:not(.pc_single_check) > label {
+	position: absolute;
+	top: 50%;
+	
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+.pc_one_col_form .pc_cb_block_label,
+.pc_one_col_form .pc_textarea_label {
+	position: static !important;
+	top: 0 !important;
+	
+	-webkit-transform: translateY(0) !important;
+	-ms-transform: translateY(0) !important;
+	transform: translateY(0) !important;	
+}
+.pc_one_col_form .pc_textarea_label {
+	width: 100%;	
+	min-width: 100%;
+}
+.pc_one_col_form .pc_form_flist > li > input,
+.pc_one_col_form .pc_form_flist > li > select,
+.pc_one_col_form .pc_form_flist > li > .pc_check_wrap,
+.pc_one_col_form .pc_form_flist > li .ms-parent {
+    display: inline-block;
+    float: right;
+    margin: 0 0 0 2% !important;
+    width: 53% !important;
+	min-width: 53%;
+}
+.pc_one_col_form .pc_single_check input {
+	position: absolute;
+	top: 5px;
+	right: 0px;	
+	max-width: 17px;
+    min-width: 17px !important;
+}
+.pc_one_col_form .pc_single_check label {
+	display: block;
+	margin-right: 20px;
+	float: none;
+	min-width: 90%;
+	max-width: 90%;
+}
+
+.pc_one_col_form .pc_rf_recaptcha {
+	margin-top: 7px;	
+}
+.pc_one_col_form .pc_disclaimer_check {
+	top: 2px
+}
+
+/* responsive behavior */
+@media screen and (max-width:450px) { 
+	.pc_one_col_form .pc_form_flist > li > label,
+	.pc_one_col_form .pc_form_flist > li > input,
+	.pc_one_col_form .pc_form_flist > li > select,
+	.pc_one_col_form .pc_form_flist > li > .pc_check_wrap,
+	.pc_one_col_form .pc_form_flist > li .ms-parent {
+   		width: 100% !important;
+		margin-left: 0 !important;
+	}
+	.pc_one_col_form .pc_form_flist > li:not(.pc_single_check) > label {
+		position: static !important;
+		top: 0 !important;
+		
+		-webkit-transform: translateY(0) !important;
+		-ms-transform: translateY(0) !important;
+		transform: translateY(0) !important;
+	}
+}
+
+
+/**** FLUID LAYOUT ****/
+.pc_fluid_form.pc_registration_form,
+.pc_fluid_form.pc_custom_form {
+    max-width: 98%;
+	padding-right: 0 !important;
+}
+.pc_fluid_form .pc_form_flist > li {
+	padding: 0 30px 0 0 !important;
+	display: inline-block;
+}
+.pc_fluid_form .pc_form_flist > li.pc_rf_field {
+	width: 100%;
+	max-width: 33.3%;
+}
+.pc_fluid_form .pc_form_flist > li > label {
+	padding: 0 !important;	
+}
+.pc_fluid_form .pc_form_flist > li > label,
+.pc_fluid_form .pc_form_flist > li > input,
+.pc_fluid_form .pc_form_flist > li > select,
+.pc_fluid_form .pc_form_flist > li > .pc_check_wrap {
+	width: 100% !important;
+	margin: 0 !important;
+}
+.pc_fluid_form li.pc_single_check {
+	position: relative;	
+}
+.pc_fluid_form .pc_form_flist > li.pc_single_check label {
+	display: block;
+	min-width: 90%;
+	max-width: 90%;
+}
+.pc_fluid_form .pc_form_flist > li.pc_single_check input {
+	position: absolute;
+	top: 5px;
+	right: 30px;	
+	max-width: 17px;
+    min-width: 17px !important;
+}
+.pc_fluid_form .pc_rf_disclaimer_sep {
+	margin-right: 23px !important;	/* use same form padding val */ 
+}
+.pc_fluid_form .pc_disclaimer_txt {
+    position: relative;
+    top: -2px;
+	padding-left: 25px;
+}
+.pc_fluid_form #pc_reg_message,
+.pc_fluid_form .pc_custom_form_message {
+	margin-right: 23px; /* use same form padding val */ 
+}
+
+.pc_fluid_form.pc_form_5col .pc_form_flist > li {width: 20%; max-width: none;}
+.pc_fluid_form.pc_form_4col .pc_form_flist > li {width: 25%; max-width: none;}
+.pc_fluid_form.pc_form_3col .pc_form_flist > li {width: 33.3%; max-width: none;}
+.pc_fluid_form.pc_form_2col .pc_form_flist > li {width: 50%; max-width: none;}
+.pc_fluid_form.pc_form_1col .pc_form_flist > li {width: 100%; max-width: none;}
+
+
+/* disclaimer */
+.pc_rf_disclaimer {
+	position: relative;	
+	width: 100% !important;
+	max-width: none !important;
+}
+.pc_rf_disclaimer_sep {
+	display: block !important;
+	width: auto !important;
+    height: 7px;
+	max-width: none !important;
+}
+.pc_disclaimer_check {
+	position: absolute;
+	top: 0;
+	left: 0;
+    z-index: 100;
+}
+.pc_disclaimer_txt {
+	display: inline-block;
+	padding-left: 25px;	
+}
+.pc_disclaimer_txt {
+	font-size: 13px;
+	line-height: 17px;
+}
+
+/* recaptcha */
+.pc_rf_recaptcha * {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;	
+}
+.pc_rf_recaptcha #recaptcha_table {
+	position: relative;
+	max-width: 400px;
+}
+.pc_rf_recaptcha #recaptcha_table tr:last-child td {
+	padding-bottom: 2px;	
+}
+.pc_rf_recaptcha #recaptcha_image {
+	width: 100% !important;	
+}
+.pc_rf_recaptcha #recaptcha_image img {
+	width: 100% !important;
+}
+.pc_rf_recaptcha input#recaptcha_response_field {
+	width: 60% !important;
+	font-size: 13px !important;	
+	padding: 0 5px !important;
+}
+#recaptcha_response_field {
+	height: 22px;	
+	min-width: 0px !important;
+	max-width: none !important;
+	border-color: #ccc !important;
+}
+.pc_form_flist #recaptcha_table .recaptcha_image_cell {
+	width: 100%;	
+	background: none !important
+}
+.pc_form_flist .recaptchatable #recaptcha_image {
+	border: none !important	
+}
+.pc_form_flist #recaptcha_table tr:first-child td:nth-of-type(2),
+.pc_form_flist #recaptcha_table tr:first-child td:last-child {
+	padding: 0px !important;
+	width: 0px !important
+}
+.pc_rf_recaptcha #recaptcha_reload_btn,
+.pc_rf_recaptcha #recaptcha_switch_audio_btn,
+.pc_rf_recaptcha #recaptcha_switch_img_btn,
+.pc_rf_recaptcha #recaptcha_whatsthis_btn {
+	position: absolute;
+	bottom: 13px;	
+	width: 16px !important;
+	height: 16px !important;
+	cursor: pointer;
+	z-index: 20;
+	opacity: 0.4;
+	filter: alpha(opacity=40);
+}
+.pc_rf_recaptcha #recaptcha_reload_btn *,
+.pc_rf_recaptcha #recaptcha_switch_audio_btn *,
+.pc_rf_recaptcha #recaptcha_switch_img_btn *,
+.pc_rf_recaptcha #recaptcha_whatsthis_btn *,
+.pc_form_flist  #recaptcha_logo {
+	display: none !important;
+}
+.pc_rf_recaptcha #recaptcha_reload_btn {
+	right: 65px;	
+}
+.pc_rf_recaptcha #recaptcha_switch_audio_btn,
+.pc_rf_recaptcha #recaptcha_switch_img_btn {
+	right: 40px;	
+}
+.pc_rf_recaptcha #recaptcha_whatsthis_btn {
+	right: 15px;	
+}
+
+
+
+/*****************************
+ SUCCESS AND ERROR MESSAGES
+ *****************************/
+  
+/* standard form messages */
+.pc_error_mess,
+.pc_success_mess {
+    display: block;
+    color: #444;
+    padding: 3px 5px;
+    margin-bottom: 11px;
+    font-size: 85%;
+}
+ 
+/* widget form messages */
+.widget .pc_error_mess,
+.widget .pc_success_mess {
+    display: block;
+    color: #444;
+    padding: 2px 4px;
+    margin-bottom: 7px;
+    margin-top: 7px;
+    font-size: 95%;
+}
+ 
+/* messages color */
+.pc_error_mess {
+    border: 1px solid #FFA6A6;
+    background-color: #FFCACA;
+}
+.pc_success_mess {
+    background-color: #EAF5DC;
+    border: 1px solid #BFE098;
+}
+
+.pc_login_trig {
+	cursor: pointer;
+	font-weight: bold;	
+}
+
+
+
+/*********************************
+ MAIL ACTIONS ADD-ON ELEMENTS
+ ********************************/
+
+/* show and hide recovery form trigger */
+.pcma_psw_recovery_trigger,
+.pcma_del_recovery {
+	font-size: 11px;
+	cursor: pointer;
+}
+.pc_rm_login .pcma_psw_recovery_trigger {
+	margin-left: 6px;	
+	padding-left: 6px;
+	border-left-style: solid;
+	border-left-width: 1px;
+}
+.pcma_del_recovery {
+	float: right;
+    margin-top: 7px;
+}
+
+/* widget rule for the button position */
+.PrivateContentLogin .pcma_psw_recovery_message {
+	min-height: 15px;	
+}

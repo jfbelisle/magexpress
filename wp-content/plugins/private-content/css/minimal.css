@@ -1,0 +1,102 @@
+/*BASIC STYLES */
+@import url("frontend.css");
+
+
+/***********************************
+    GLOBAL ELEMENTS
+ ***********************************/
+ 
+/* containers style */
+.pc_registration_form,
+.pc_login_form,
+.pc_custom_form {
+	background-color: #fefefe;
+    border: 1px solid #ebebeb;
+	color: #373737;
+}
+
+
+/* fields style */
+.pc_rf_field input, .pc_rf_field select, .pc_rf_field textarea,
+.pc_multiselect .ms-choice, .pc_multiselect .ms-drop,
+.pc_login_row input, .pcma_psw_username,
+.pc_rf_recaptcha #recaptcha_response_field {
+	background: #fefefe;
+    border: 1px solid #ccc;
+    box-shadow: none;
+    color: #808080;	
+	padding: 3px !important;
+	border-radius: 1px !important;
+}
+.pc_rf_field input:hover, .pc_rf_field select:hover, .pc_rf_field textarea:hover,
+.pc_rf_field input:active, .pc_rf_field select:active, .pc_rf_field textarea:active,
+.pc_rf_field input:focus, .pc_rf_field select:focus, .pc_rf_field textarea:focus,
+.pc_multiselect .ms-choice:hover, .pc_multiselect .ms-choice:active, .pc_multiselect .ms-choice:focus,
+.pc_login_row input:hover, .pcma_psw_username:hover,
+.pc_login_row input:active, .pcma_psw_username:active,
+.pc_login_row input:focus, .pcma_psw_username:focus,
+.pc_rf_recaptcha #recaptcha_response_field:focus {
+	background: #FFF;
+    border: 1px solid #aaa;
+    color: #333;	
+	box-shadow: none;	
+}
+.pc_login_form label, .pc_form_flist, .pc_form_flist label {
+	color: #373737;
+}
+
+/* multiselect fix */
+.pc_multiselect .ms-drop {
+	padding: 0 !important;	
+}
+
+
+/* submit buttons */
+.pc_login_form input[type="button"], 
+.pc_registration_form input[type="button"],
+.pc_custom_form input[type="button"],
+.pc_logout_btn {
+	border: 1px solid #ccc !important;
+	background: none !important;
+	background-color: #f4f4f4 !important;
+	color: #444 !important;
+}
+.pc_login_form input[type="button"]:hover, .pc_login_form input[type="button"]:active, .pc_login_form input[type="button"]:focus,  
+.pc_registration_form input[type="button"]:hover, .pc_registration_form input[type="button"]:active, .pc_registration_form input[type="button"]:focus,
+.pc_custom_form input[type="button"]:hover, .pc_custom_form input[type="button"]:active, .pc_custom_form input[type="button"]:focus,
+.pc_logout_btn:hover, .pc_logout_btn:active, .pc_logout_btn:focus,
+.pc_loading_btn:hover, .pc_loading_btn:active, .pc_loading_btn:focus {
+	border: 1px solid #cacaca !important;
+	background-color: #efefef !important;
+	color: #111 !important;
+	box-shadow: 0px 1px 0px #e4e4e4 inset;
+}
+
+.pc_rf_disclaimer_sep {
+	border-bottom: 1px solid #dfdfdf;	
+}
+ 
+/* recaptcha */
+.pc_rf_recaptcha #recaptcha_reload_btn {
+	background: url('../img/recaptcha_icons/refresh_l.png') no-repeat center center transparent !important;
+}
+.pc_rf_recaptcha #recaptcha_switch_audio_btn {
+	background: url('../img/recaptcha_icons/sound_l.png') no-repeat center center transparent !important;
+}
+.pc_rf_recaptcha #recaptcha_switch_img_btn {
+	background: url('../img/recaptcha_icons/text_l.png') no-repeat center center transparent !important;
+}
+.pc_rf_recaptcha #recaptcha_whatsthis_btn {
+	background: url('../img/recaptcha_icons/question_l.png') no-repeat center center transparent !important;
+}
+ 
+ 
+/* login form smalls */
+.pc_login_smalls small {
+	color: #595959;	
+}
+
+/* show and hide recovery form trigger */
+.pc_rm_login .pcma_psw_recovery_trigger {
+	border-left-color: #c6c6c6;		
+}
